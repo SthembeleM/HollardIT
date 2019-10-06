@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<app name="BrokerPortal">
+
+<page name = 'Purple'>
+
+    <element name='PolicyNo' by='id' identifier='policyNumber' />
+    <element name='Search' by='id' identifier='siFindButton'/>
+    <element name='Insured_Name' by='xpath' identifier='//*[@id="JHB/EBPANP/000153927"]/td[1]'/>
+    <element name='underwriter_button' by='id' identifier='trinUnderwritingButton'/>
+    <element name='DocumentRef' by='id' identifier='allocationsGrid_act_selectall'/>
+    <element name='AllocationSave' by='id' identifier='allocationSaveButton2'/>
+    <element name='Underwriting' by='id' identifier='trinUnderwritingOptions_LABEL'/>
+    <element name='PolicyGrid' by='id' identifier='siPolicyGrid_CAPTION'/>
+    <element name='InsuredN' by='xpath' identifier='//*[@id="JHB/EBPANP/000153861"]/td[1]'/>
+    <element name='AgentName' by='xpath' identifier= '//*[@id="JHB/EBPANP/000153861"]/td[3]'/>
+    <element name='DisplayS' by='xpath' identifier= '//*[@id="JHB/EBPANP/000153861"]/td[4]'/>
+    <element name='PolicyN' by='xpath' identifier= '//*[@id="JHB/EBPANP/000153861"]/td[2]'/>
+    <element name='Underwriting2' by='xpath' identifier= '//*[@id="trinUnderwritingOptions_POP"]/div/div[1]'/>
+    <element name='Underwriting3' by='id' identifier='trinUnderwritingOptions_ICO'/>
+
+
+</page>
+
+    <page name = 'Allocation_Validation'>
+
+    <element name='FirstTableSND' by='xpath' identifier='(//*[contains(@id, "SND")]/td[2])[1]'/>
+    <element name='FirstTableSEC' by='xpath' identifier='(//*[contains(@id, "SEC")]/td[2])[1]'/>
+    <element name='DisplayTypeNewBusiness' by='xpath' identifier='(//*[contains(@id, "SND")]/td[3])[1]'/>
+    <element name='DisplayTypeEndorsement' by='xpath' identifier='(//*[contains(@id, "SEC")]/td[3])[1]'/>
+    <element name='FirstDueDate' by='xpath' identifier='(//*[contains(@id, "SND")]/td[4])[1]'/>
+    <element name='SecondDueDate' by='xpath' identifier='(//*[contains(@id, "SEC")]/td[4])[1]'/>
+    <element name='FirstAllocationAmount' by='xpath' identifier='(//*[contains(@id, "SND")]/td[6])[1]'/>
+    <element name='SecondAllocationAmount' by='xpath' identifier='(//*[contains(@id, "SEC")]/td[6])[1]'/>
+    <element name='FirstAllocation' by='xpath' identifier='(//*[contains(@id, "SND")]/td[9])[1]'/>
+    <element name='SecondAllocation' by='xpath' identifier='(//*[contains(@id, "SEC")]/td[9])[1]'/>
+    <element name='FirstZeroAllocation' by='xpath' identifier='(//*[contains(@id, "SND")]/td[12])[1]'/>
+    <element name='SecondZeroAllocation' by='xpath' identifier='(//*[contains(@id, "SEC")]/td[12])[1]'/>
+    <element name='FirstLastAllocation' by='xpath' identifier='(//*[contains(@id, "SND")]/td[15])[1]'/>
+    <element name='SecondLastAllocation' by='xpath' identifier='(//*[contains(@id, "SEC")]/td[15])[1]'/>
+
+    </page>
+
+
+    <page name = 'Policy_information_Validation'>
+
+        <element name='PolicyInformationNoData' by='xpath' identifier='//*[@id="NODATA"]'/>
+        <element name='PolicyInformationDocumentRef' by='xpath' identifier='//*[@id="0"]/td[2]'/>
+        <element name='PolicyInformationDocumentRefAllocation' by='xpath' identifier='//*[@id="1"]/td[2]'/>
+        <element name='PolicyInformationNewBusiness' by='xpath' identifier='//*[@id="0"]/td[3]'/>
+        <element name='PolicyInformationUnderwriting' by='xpath' identifier='//*[@id="1"]/td[3]'/>
+        <element name='PolicyInformationCancelPolicy' by='xpath' identifier='//*[@id="2"]/td[3]'/>
+        <element name='PolicyInformation2' by='xpath' identifier='//*[@id="3"]/td[3]'/>
+        <element name='PolicyInformationUser' by='xpath' identifier='//*[@id="1"]/td[4]'/>
+        <element name='PolicyInformationGrossPremium' by='xpath' identifier='//*[@id="0"]/td[8]'/>
+        <element name='PolicyInformationCommission' by='xpath' identifier='//*[@id="0"]/td[9]'/>
+
+
+    </page>
+
+
+    <page name = 'AllocationDetailValidation'>
+
+        <element name='AllocationDetailDocumentSND' by='xpath' identifier='//*[@id="0"]/td[1]'/>
+        <element name='AllocationDetailDocumentSEC' by='xpath' identifier='//*[@id="1"]/td[1]'/>
+        <element name='AllocationDetailGrossPremium' by='xpath' identifier='//*[@id="0"]/td[4]'/>
+        <element name='AllocationDetailCommission' by='xpath' identifier='//*[@id="0"]/td[7]'/>
+        <element name='AllocationDetailAllocatedUser' by='xpath' identifier='//*[@id="adgAllocatedByUser"]'/>
+        <element name='AllocationDetailTotal' by='xpath' identifier='//*[@id="0"]/td[11]'/>
+        <element name='AllocationTable' by='id' identifier='xpath","selector":"//li[contains(text(),"Claims"'/>
+        <element name='TableRows' by='xpath' identifier='.//*[@id="adgAllocTranGrid_TABLE"]/tbody/tr'/>
+        <element name='TotalColumns' by='xpath' identifier='//*[@id="adgAllocTranGrid_TABLE"]/tbody/tr[1]/*'/>
+        <element name='TotalColumns' by='xpath' identifier='//*[@id="adgAllocTranGrid_TABLE"]/tbody/tr[1]/*'/>
+
+    </page>
+
+
+
+    <page name = 'AllocationDetailReversal'>
+
+        <element name='Reversal' by='id' identifier='adgReverseButton'/>
+        <element name='ReversalContent' by='class' identifier='bar'/>
+        <element name='Reversal' by='cssSelector' identifier='li.tab:nth-child(11)'/>
+
+    </page>
+
+
+    <page name = 'OpenClaim'>
+
+        <element name='ClaimTab' by='xpath' identifier='//li[contains(text(),"Claims")]'/>
+        <element name='NewClaimButton' by='id' identifier='sicNewClaim'/>
+        <element name='DateOfLoss' by='id' identifier='clprDateOfLoss'/>
+        <element name='TimeOfIncident' by='xpath' identifier='//*[@id="timepickerUnknown"]/div[1]'/>
+        <element name='PrimaryCause1' by='id' identifier='clprPrimaryCause_ICO'/>
+        <element name='PrimaryCause2' by='xpath' identifier='//*[@id="clprPrimaryCause_POP"]/div/div[14]'/>
+        <element name='SecondaryCause1' by='id' identifier='clprSecondaryCause_ICO'/>
+        <element name='SecondaryCause2' by='xpath' identifier='//*[@id="clprSecondaryCause_POP"]/div/div[1]'/>
+        <element name='PremiumConfirmedBy' by='id' identifier='clprPremConfTypes'/>
+        <element name='ClaimDescription' by='id' identifier='clprClaimDescription'/>
+        <element name='SaveButton' by='id' identifier='clprSaveButton'/>
+        <element name='ExpandGlass' by='xpath' identifier='//table[@id="caReservesGrid_TABLE"]//tr[@id="1"]//td[@class="gridIcoExpandCell"]'/>
+        <element name='ExpandGlass1' by='xpath' identifier='//table[@id="caReservesGrid_TABLE"]//tr[@id="3"]'/>
+        <element name='OwnDamageReserve' by='id' identifier='reserveUpdateGrid_1_TotalAmount_EDIT'/>
+        <element name='SaveReserve' by='xpath' identifier='//*[@id="ruSaveButton"]'/>
+        <element name='ClaimVersion' by='xpath' identifier='//li[contains(text(),"Case Versions")]'/>
+        <element name='ClaimVersion2' by='xpath' identifier='//table[@id="caVersionsGrid_TABLE"]//td[contains(text(),"Opened Claim")]'/>
+        <element name='ClaimDescription' by='id' identifier='clprClaimDescription'/>
+
+    </page>
+
+    <page name = 'CaseInformationValidation'>
+
+        <element name='ClientName' by='id' identifier='caInsuredName'/>
+        <element name='AgentBroker' by='id' identifier='caAgentName'/>
+        <element name='PrimaryCause' by='id' identifier='caPrimaryCause'/>
+        <element name='SecondaryCause' by='id' identifier='caSecondaryCause'/>
+        <element name='ClaimHandler' by='xpath' identifier='//input[@id="caClaimHandler"]'/>
+        <element name='Catastrophe1' by='xpath' identifier='//input[@id="caCatCode"]'/>
+        <element name='PremiumConfirmedBy' by='id' identifier='caPremConfTypes'/>
+        <element name='DateOfLoss' by='id' identifier='caDateOfLoss'/>
+        <element name='LossToDate' by='id' identifier='caLossToDate'/>
+        <element name='ClaimStatus' by='id' identifier='caClaimStatus'/>
+        <element name='Location' by='id' identifier='caLocation'/>
+        <element name='BrokerClaimNumber' by='id' identifier='caBrokerClaimRef'/>
+        <element name='ProgressStatus' by='id' identifier='caPStatus'/>
+        <element name='LastUpdated' by='id' identifier='caLastUpdateDate'/>
+        <element name='ClaimCloseStatus' by='id' identifier='caClaimCloseStatus'/>
+        <element name='StatusDescription' by='id' identifier='caClaimStatusDescription'/>
+        <element name='CaseIsAuthorized' by='id' identifier='CaseIsAuthorizedNo'/>
+        <element name='ThirdPartyLiability' by='xpath' identifier='//div[@id="caThirdPartyLiability"]//div[@class="item hot"][contains(text(),"No")]'/>
+        <element name='ThirdPartyRecovery' by='xpath' identifier='//div[@id="caThirdPartyRecovery"]//div[@class="item hot"][contains(text(),"No")]'/>
+        <element name='MinorClaimant' by='xpath' identifier='//div[@id="caMinorClaimant"]//div[@class="item hot"][contains(text(),"No")]'/>
+        <element name='ExGratia' by='xpath' identifier='//div[@id="caExGratia"]//div[@class="item hot"][contains(text(),"No")]'/>
+        <element name='IsBordereauClaim' by='xpath' identifier='//div[@id="caIsBdxClaim"]//div[@class="item hot"][contains(text(),"No")]'/>
+        <element name='IsContentiousClaim' by='xpath' identifier='//div[@id="caIsContentiousClaim"]//div[@class="item hot"][contains(text(),"No")]'/>
+        <element name='SalvageApplicable' by='xpath' identifier='//div[@id="caSalvageApplicable"]//div[@class="item hot"][contains(text(),"No")]'/>
+        <element name='ClaimRejected' by='xpath' identifier='//div[@id="caClaimRejected"]//div[@class="item hot"][contains(text(),"No")]'/>
+        <element name='OmbudsmanApproached' by='xpath' identifier='//div[@id="caOmbudsmanApproached"]//div[@class="item hot"][contains(text(),"No")]'/>
+        <element name='Compensation' by='xpath' identifier='//div[@id="caCompensation"]//div[@class="item hot"][contains(text(),"No")]'/>
+        <element name='AssessmentRequired' by='xpath' identifier='//div[@id="caIsAssessReq"]//div[@class="item hot"][contains(text(),"No")]'/>
+        <element name='ReopenCaseButton' by='xpath' identifier='//button[contains(text(),"Re-open case")]'/>
+
+    </page>
+
+    <page name = 'CaseDetailsValidations'>
+
+        <element name='Section3' by='xpath' identifier='//table[@id="caReservesGrid_TABLE"]//tr[@id="1"]//td[contains(text(),"Glass")]'/>
+        <element name='Section' by='xpath' identifier='//div[@id="csReservesTab"]//tr[2]//td[3]'/>
+        <element name='GlassCurrentReserve' by='xpath' identifier='//div[@id="siCaseDetailArea"]//tr[4]//td[5]'/>
+        <element name='GlassCurrentReserve2' by='xpath' identifier='//div[@id="csReservesTab"]//tr[2]//td[5]'/>
+        <element name='GlassPaid' by='xpath' identifier='//div[@id="siCaseDetailArea"]//tr[4]//td[6]'/>
+        <element name='GlassPaid2' by='xpath' identifier='//div[@id="csReservesTab"]//tr[2]//td[6]'/>
+        <element name='GlassRecovered' by='xpath' identifier='//div[@id="ajs-main"]//tr[4]//td[7]'/>
+        <element name='GlassRecovered2' by='xpath' identifier='//div[@id="csReservesTab"]//tr[2]//td[7]'/>
+        <element name='GlassIncurred' by='xpath' identifier='//tr[4]//td[8]'/>
+        <element name='GlassIncurred2' by='xpath' identifier='//div[@id="csReservesTab"]//tr[2]//td[8]'/>
+
+
+    </page>
+
+
+
+    <page name = 'PayClaim'>
+
+        <element name='Claim1' by='xpath' identifier='//div[@id="siClaimsTab"]//tr[@id="0"]//td[3]'/>
+        <element name='PaymentsTab' by='xpath' identifier='//li[contains(text(),"Payments")]'/>
+        <element name='CasePaymentType1' by='id' identifier='casePaymentType_LABEL'/>
+        <element name='CasePaymentType2' by='xpath' identifier='//div[contains(text(),"Client Payment")]'/>
+        <element name='CasePaymentTypeButton' by='id' identifier='paymentByTypeButton'/>
+        <element name='ExpandGlass2' by='xpath' identifier='//div[@id="siCaseDetailArea"]//tr[3]//td[5]'/>
+        <element name='ClaimPaymentAmount' by='xpath' identifier='//*[@id="reservesGrid_1_PaymentAmount_EDIT"]'/>
+        <element name='SavePayment' by='id' identifier='rSaveButton'/>
+        <element name='PayButton' by='id' identifier='ccrWizBottomPayButton'/>
+        <element name='RequestPaymentButton' by='id' identifier='ccprPayButton'/>
+        <element name='PaymentReference' by='id' identifier='prPaymentRef'/>
+        <element name='CaseNumber' by='xpath' identifier='//input[@id="caCaseNumber"]'/>
+        <element name='SearchFor' by='id' identifier='searchFor_ICO'/>
+        <element name='SearchFor1' by='xpath' identifier='//div[@class="item"][contains(text(),"Case")]'/>
+        <element name='CaseNum' by='id' identifier='caseNumber'/>
+        <element name='CaseVersionsTab' by='xpath' identifier='//li[contains(text(),"Case Versions")]'/>
+        <element name='CasePaymentGrid' by='xpath' identifier='//table[@id="casePaymentsGrid_TABLE"]//td[contains(text(),"Iqbal Trading")]'/>
+
+    </page>
+
+    <page name = 'PaymentValidations'>
+
+        <element name='DateOfLossCaseInformation' by='xpath' identifier='//tr[@id="0"]//td[contains(text(),"01/04/2019")]'/>
+        <element name='CaseNumberCaseInformation' by='xpath' identifier='//*[@id="0"]/td[4]'/>
+        <element name='DescriptionCaseInformation' by='xpath' identifier='//td[contains(text(),"Testing Open Claim")]'/>
+        <element name='ReserveToDate' by='xpath' identifier='//tr[@id="368^2"]//td[5]'/>
+        <element name='Peril' by='xpath' identifier='//tr[@id="368^2"]//td[@class="gridMainCell"][contains(text(),"Glass")]'/>
+        <element name='SumInsured' by='xpath' identifier='//tr[@id="368^2"]//td[@class="gridMainCell"][contains(text(),"869,565.00")]'/>
+        <element name='Currency1' by='xpath' identifier='//tr[@id="368^2"]//td[@class="gridMainCell"][contains(text(),"ZAR")]'/>
+        <element name='PaidToDate' by='xpath' identifier='//tr[@id="368^2"]//td[6]'/>
+        <element name='CurrentReserve' by='xpath' identifier='//tr[@id="368^2"]//td[7]'/>
+        <element name='ThisReserveExclVAT' by='xpath' identifier='//tr[@id="368^2"]//td[8]'/>
+        <element name='VAT' by='xpath' identifier='//tr[@id="368^2"]//td[9]'/>
+        <element name='ThisReserve' by='xpath' identifier='//tr[@id="368^2"]//td[10]'/>
+        <element name='PaymentVAT' by='xpath' identifier='//tr[@id="368^2"]//td[11]'/>
+        <element name='ThisPayment' by='xpath' identifier='//input[@id="reservesGrid_1_PaymentAmount_EDIT"]'/>
+        <element name='PaymentAmount' by='id' identifier='prAmount'/>
+        <element name='Client' by='xpath' identifier='//table[@id="prCaseGrid_TABLE"]//tr[@id="0"]//td[contains(text(),"Iqbal Trading")]'/>
+        <element name='PaidVAT' by='xpath' identifier='//tr[@id="0"]//td[contains(text(),"8,695.65")]'/>
+        <element name='VAT2' by='xpath' identifier='//tr[@id="0"]//td[contains(text()," 1304.35")]'/>
+        <element name='TotalPaid' by='xpath' identifier='//table[@id="prCaseGrid_TABLE"]//tr[@id="0"]//td[contains(text(),"10,000.00")]'/>
+        <element name='DateOfLoss3' by='xpath' identifier='//table[@id="prCaseGrid_TABLE"]//td[contains(text(),"01/04/2019")]'/>
+        <element name='TotalIncurred' by='xpath' identifier='//div[@id="csVersionsTab"]//tr[@id="0"]//td[5]'/>
+        <element name='TotalOutstanding' by='xpath' identifier='//div[@id="csVersionsTab"]//tr[@id="0"]//td[6]'/>
+        <element name='TotalReserve' by='xpath' identifier='//div[@id="csVersionsTab"]//tr[@id="0"]//td[7]'/>
+        <element name='TotalPayment' by='xpath' identifier='//div[@id="csVersionsTab"]//tr[@id="0"]//td[8]'/>
+        <element name='TotalRecovery' by='xpath' identifier='//div[@id="csVersionsTab"]//tr[@id="0"]//td[9]'/>
+        <element name='TotalReceipt' by='xpath' identifier='//div[@id="siCaseDetailArea"]//tr[@id="0"]//td[10]'/>
+        <element name='Payee2' by='xpath' identifier='//tr[@id="0"]//td[contains(text(),"Iqbal Trading")]'/>
+        <element name='PayeeType' by='xpath' identifier='//td[contains(text(),"Corporate Client")]'/>
+        <element name='PaymentType' by='xpath' identifier='//td[contains(text(),"Bordereau Claim Payment")]'/>
+        <element name='MediaType1' by='xpath' identifier='//td[contains(text(),"ZAR - EFT")]'/>
+        <element name='Reference' by='xpath' identifier='//td[contains(text(),"Testing Open Claim")]'/>
+        <element name='Status' by='xpath' identifier='//td[contains(text(),"Recommendation Required")]'/>
+        <element name='CasePaymentAmount' by='xpath' identifier='//td[@class="tip-vat"]'/>
+        <element name='Status1' by='xpath' identifier='//table[@id="ccpadAuthGrid_TABLE"]//td[contains(text(),"Request")]'/>
+        <element name='' by='xpath' identifier=''/>
+        <element name='' by='xpath' identifier=''/>
+        <element name='' by='xpath' identifier=''/>
+
+    </page>
+
+    <page name = 'CreditControlValidations'>
+
+        <element name='CreditControlChannel' by='id' identifier='ccrReceiptChannel_LABEL'/>
+        <element name='CreditControlPaymentType' by='id' identifier='ccrClaimPaymentType_LABEL'/>
+        <element name='CreditControlPayeeName' by='id' identifier='ccrReceivedFrom'/>
+        <element name='CreditControlCurrency' by='id' identifier='ccrCurrency_LABEL'/>
+        <element name='CreditControlBankAccount' by='id' identifier='ccrBankAccount_LABEL'/>
+        <element name='CreditControlAmount' by='id' identifier='ccrReceiptAmount'/>
+        <element name='' by='xpath' identifier=''/>
+        <element name='' by='xpath' identifier=''/>
+        <element name='' by='xpath' identifier=''/>
+        <element name='' by='xpath' identifier=''/>
+        <element name='' by='xpath' identifier=''/>
+
+    </page>
+
+    <page name = 'CaseVersionDescDetailsValidations'>
+
+        <element name='Version' by='xpath' identifier='//div[@id="csVersionsTab"]//tr[@id="0"]//td[1]'/>
+        <element name='TransactionDescription' by='xpath' identifier='//td[contains(text(),"Opened Claim")]'/>
+        <element name='User' by='xpath' identifier='//table[@id="caVersionsGrid_TABLE"]//td[contains(text(),"Mpumelelo Dube")]'/>
+        <element name='Date' by='xpath' identifier='//table[@id="caVersionsGrid_TABLE"]//td[contains(text(),"14/06/2019")]'/>
+        <element name='TotalIncurred' by='xpath' identifier='//div[@id="csVersionsTab"]//tr[@id="0"]//td[5]'/>
+        <element name='TotalOutstanding' by='xpath' identifier='//div[@id="csVersionsTab"]//tr[@id="0"]//td[6]'/>
+        <element name='TotalReserve' by='xpath' identifier='//div[@id="csVersionsTab"]//tr[@id="0"]//td[7]'/>
+        <element name='TotalPayment' by='xpath' identifier='//div[@id="csVersionsTab"]//tr[@id="0"]//td[8]'/>
+        <element name='TotalRecovery' by='xpath' identifier='//div[@id="csVersionsTab"]//tr[@id="0"]//td[9]'/>
+        <element name='TotalReceipt' by='xpath' identifier='//div[@id="siCaseDetailArea"]//tr[@id="0"]//td[10]'/>
+
+    </page>
+
+
+    <page name = 'CaseVersionDetailsValidations'>
+
+        <element name='ClientName2' by='id' identifier='cvdClientName'/>
+        <element name='PolicyNumber2' by='id' identifier='cvdPolicyNumber'/>
+        <element name='PolicyNumber1' by='id' identifier='caPolicyNumber'/>
+        <element name='CaseNumber2' by='id' identifier='cvdCaseNumber'/>
+        <element name='DateOfLoss2' by='id' identifier='cvdDateOfLoss'/>
+        <element name='Peril1' by='xpath' identifier='//td[contains(text(),"Ex Gratia - EBP Glass - Misc Accident")]'/>
+        <element name='Peril2' by='xpath' identifier='//table[@id="claimReserveDetailGrid_TABLE"]//tr[@id="1"]//td[contains(text(),"Glass")]'/>
+        <element name='ExGratiaReserve' by='xpath' identifier='//fieldset[@id="claimReserveDetailFields"]//tr[@id="0"]//td[2]'/>
+        <element name='ExGratiaPayment' by='xpath' identifier='//fieldset[@id="claimReserveDetailFields"]//tr[@id="0"]//td[3]'/>
+        <element name='ExGratiaRecovery' by='xpath' identifier='//fieldset[@id="claimReserveDetailFields"]//tr[@id="0"]//td[4]'/>
+        <element name='ExGratiaReceipt' by='xpath' identifier='//fieldset[@id="claimReserveDetailFields"]//tr[@id="0"]//td[5]'/>
+        <element name='GlassReserve' by='xpath' identifier='//table[@id="claimReserveDetailGrid_TABLE"]//td[contains(text(),"8,695.65")]'/>
+        <element name='GlassPayment' by='xpath' identifier='//fieldset[@id="claimReserveDetailFields"]//tr[@id="1"]//td[3]'/>
+        <element name='GlassRecovery' by='xpath' identifier='//fieldset[@id="claimReserveDetailFields"]//tr[@id="1"]//td[4]'/>
+        <element name='GlassReceipt' by='xpath' identifier='//fieldset[@id="claimReserveDetailFields"]//tr[@id="1"]//td[5]'/>
+
+    </page>
+
+
+    <page name = 'RecommendAndAuthoriseClaim'>
+
+        <element name='Payee' by='xpath' identifier='//table[@id="casePaymentsGrid_TABLE"]//tr[@id="0"]'/>
+        <element name='RecommendButton' by='id' identifier='btnRecomTop'/>
+        <element name='AuthoriseButton' by='id' identifier='btnAuthTop'/>
+
+    </page>
+
+    <page name = 'ClaimBordereauValidation'>
+
+        <element name='PayeeName' by='id' identifier='cbPayeeName'/>
+        <element name='DiscountAgreement' by='xpath' identifier='//div[@id="cbDiscountAgreement"]//div[@class="item"][contains(text(),"No")]'/>
+        <element name='PayeeIsDomiciledforTax' by='id' identifier='cbPayeeDomiciledForTax'/>
+        <element name='DiscountDays' by='id' identifier='cbDiscountDays'/>
+        <element name='DiscountPercentage' by='id' identifier='cbDiscountPercentage'/>
+        <element name='PaymentType' by='xpath' identifier='//select[@id="cbTransactionType"]'/>
+        <element name='PaymentReference1' by='xpath' identifier='//input[@id="cbReference"]'/>
+        <element name='Currency' by='id' identifier='cbCurrency'/>
+        <element name='InvoiceDate' by='id' identifier='cbInvoiceDate'/>
+        <element name='PaidFromAccount' by='id' identifier='cbFromAccount'/>
+        <element name='MediaType' by='id' identifier='cbMediaType'/>
+        <element name='CreatedDate' by='id' identifier='cbCreatedDate'/>
+        <element name='CreatedBy' by='id' identifier='cbCreatedBy'/>
+        <element name='Payee' by='xpath' identifier='//input[@placeholder="Payee"]'/>
+        <element name='Payee1' by='id' identifier='cbAccountName'/>
+        <element name='Bank' by='xpath' identifier='//fieldset[@id="payToAccountFields"]//input[2]'/>
+        <element name='BankAccount' by='id' identifier='cbBankAccountNumber'/>
+        <element name='BankCode' by='xpath' identifier='//fieldset[@id="payToAccountFields"]//input[4]'/>
+        <element name='DiscountApplied' by='xpath' identifier='//div[@id="cbDiscountApplied"]//div[@class="item"][contains(text(),"No")]'/>
+        <element name='TotalInvoiceAmount' by='id' identifier='cbTotalInvAmount'/>
+        <element name='DiscountPercentApplied' by='id' identifier='cbDiscountPercentApplied'/>
+        <element name='DiscountAmount' by='id' identifier='cbDiscountPercentApplied'/>
+        <element name='NumberOfDays' by='id' identifier='cbNumberOfDays'/>
+        <element name='Amount' by='id' identifier='cbAmount'/>
+
+    </page>
+
+    <page name = 'RecommendAndAuthoriseClaim'>
+
+        <element name='ViewInbox' by='xpath' identifier='//*[@id="mainNotification"]/b'/>
+        <element name='Read' by='xpath' identifier='//td[contains(text(),"Test EFT ClientPayment payment processed with stat")]'/>
+        <element name='NotificationInbox' by='id' identifier= 'azureSearchInputArea'/>
+
+
+    </page>
+
+    <page name = 'SalvageRecovery'>
+
+        <element name='SearchFor' by='id' identifier='searchFor_LABEL'/>
+        <element name='SearchFor2' by='xpath' identifier='/html[1]/body[1]/div[4]/div[1]/div[5]'/>
+        <element name='BankAmount' by='id' identifier='basAmount'/>
+        <element name='Search1' by='id' identifier='basFindButton'/>
+        <element name='Narrative' by='xpath' identifier='//table[@id="basStatementsGrid_TABLE"]//tbody'/>
+        <element name='DistributeButton' by='xpath' identifier='//button[contains(text(),"Distribute")]'/>
+        <element name='Comment' by='xpath' identifier='//textarea[@id="siDistributionComment"]'/>
+        <element name='SaveDistribution' by='xpath' identifier='//button[@id="siDistributionSaveBottomBnt"]'/>
+        <element name='Channel' by='id' identifier='ccrReceiptChannel_ICO'/>
+        <element name='Channel1' by='xpath' identifier='/html[1]/body[1]/div[26]/div[1]/div[6]'/>
+        <element name='RecoveryType' by='id' identifier='ccrThirdPartySalvageOptions_ICO'/>
+        <element name='RecoveryType1' by='xpath' identifier='/html[1]/body[1]/div[36]/div[1]/div[2]'/>
+        <element name='ReceivedFromIcon' by='id' identifier='ccrReceivedFrom_ICO'/>
+        <element name='PartyCode' by='id' identifier='ccrfClientCode'/>
+        <element name='PartyType' by='id' identifier='ccrfPartyType_ICO'/>
+        <element name='Content' by='xpath' identifier='//div[@id="ccrfPartyType_POP"]//div[@class="content"]'/>
+        <element name='Content1' by='id' identifier='ccrfPartyType_POP'/>
+        <element name='PartyType1' by='xpath' identifier='//*[@id="ccrfPartyType_POP"]/div/div[19]'/>
+        <element name='PartyResults' by='xpath' identifier='//tr[@id="0"]//td[contains(text(),"Salvage Management and Disposals")]'/>
+        <element name='PartySearch' by='id' identifier='ccrfFindButton'/>
+        <element name='ConfirmButton' by='id' identifier='ccrWizBottomConfirmButton'/>
+        <element name='NextButton' by='id' identifier='ccrWizBottomNextButton'/>
+        <element name='PolicyNo1' by='id' identifier='crsPolicyNo'/>
+        <element name='FindButton' by='id' identifier='crsFindButton'/>
+        <element name='SearchResultsGrid' by='xpath' identifier='//table[@id="crsClaimReceiptSearchResultsGrid_TABLE"]//tbody'/>
+        <element name='ClaimRecoveriesGrid' by='id' identifier='claimRecoveriesGrid_2_TotalAmount_EDIT'/>
+        <element name='RecoverySaveButton' by='id' identifier='claimRecoverySaveButton'/>
+        <element name='BottomDoneButton' by='id' identifier='ccaWizBottomDoneButton'/>
+        <element name='CaseNumber1' by='xpath' identifier='//input[@id="craCaseNumber"]'/>
+        <element name='Lock' by='xpath' identifier='//*[@id="caLocker"]/label'/>
+        <element name='Lock1' by='xpath' identifier=' //span[@class="unlock"]'/>
+        <element name='SalvageApplicable1' by='xpath' identifier='//*[@id="caSalvageApplicable"]/div[1]'/>
+        <element name='CaseInfoConfirmButton' by='id' identifier='caConfirm'/>
+        <element name='ClaimPaymentReserveUpdate' by='xpath' identifier='//td[contains(text(),"Claim Recovery Reserve Update")]'/>
+        <element name='ClaimVersionDetailsHeader' by='xpath' identifier='//*[@id="claimDetailVersionDetailsHeader"]/span'/>
+        <element name='ClaimVersionDetailsHeader2' by='xpath' identifier='//h1[@id="claimAllocationDetailHeader"]//span'/>
+        <element name='SalvageReceipt' by='xpath' identifier='//td[contains(text(),"Salvage Receipt")]'/>
+        <element name='SalvageAllocation' by='xpath' identifier='//td[@class="underline"]'/>
+        <element name='ReceiptsTab' by='xpath' identifier='//li[contains(text(),"Receipts")]'/>
+        <element name='SalvageManagementDisposals' by='xpath' identifier='//td[contains(text(),"Salvage Management and Disposals")]'/>
+        <element name='ProcessedFrm' by='id' identifier='crdCreatedDate'/>
+        <element name='Menu' by='xpath' identifier='//a[contains(text(),"Menu")]'/>
+        <element name='MenuCreditControl' by='xpath' identifier='//a[contains(text(),"Credit Control")]'/>
+        <element name='ReceiptChannel' by='id' identifier='ccsReceiptChannel_ICO'/>
+        <element name='ReceiptChannel1' by='xpath' identifier='//div[contains(text(),"Claim Recovery")]'/>
+        <element name='ProcessedFrm1' by='id' identifier='ccsProcessedFrom'/>
+        <element name='SearchButton' by='id' identifier='ccsFindButton'/>
+        <element name='CreditControlSearchResults' by='xpath' identifier='//tr[@id="0"]//td[contains(text(),"Claim Recovery")]'/>
+        <element name='Allocation' by='id' identifier='//*[@id="0"]/td[4]'/>
+
+    </page>
+
+    <page name = 'CloseCase'>
+
+        <element name='CloseCaseButton' by='xpath' identifier='//button[contains(text(),"Close case")]'/>
+        <element name='CloseCaseReason' by='id' identifier='ja_popup_prompt_LABEL'/>
+        <element name='CloseCaseReason1' by='xpath' identifier='//div[contains(text(),"Matter Settled")]'/>
+        <element name='CloseCaseReasonOK' by='xpath' identifier='//button[contains(text(),"OK")]'/>
+        <element name='ClaimVersionMatterSettled' by='xpath' identifier='//tr[@id="0"]//td[contains(text(),"Claim Reserves Nullify - Matter Settled")]'/>
+        <element name='AllocationsResultsGrid' by='xpath' identifier='//table[@id="crsAllocationsResultsGrid_TABLE"]//tr[@id="0"]'/>
+        <element name='' by='xpath' identifier=''/>
+
+    </page>
+
+
+
+
+</app>

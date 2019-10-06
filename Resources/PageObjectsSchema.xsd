@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified">
+
+	<xs:element name="app">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="page" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="element" maxOccurs="unbounded" minOccurs="0">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute type="xs:string" name="name" use="required"/>
+											
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:pattern value="[a-z]"/>
+												</xs:restriction>
+											</xs:simpleType>
+											
+											<xs:attribute type="xs:string" name="by" use="required" [a-z] />
+												<xs:simpleType name="by">
+													<xs:restriction base="xs:string">
+														<xs:enumeration value="id"/>
+														<xs:enumeration value="css"/>
+														<xs:enumeration value="xpath"/>
+														<xs:enumeration value="partiallinktext"/>
+														<xs:enumeration value="linktext"/>
+														<xs:enumeration value="tagname"/>
+														<xs:enumeration value="classname"/>
+														<xs:enumeration value="name"/>
+
+												    </xs:restriction>
+												</xs:simpleType>
+											<xs:attribute type="xs:string" name="identifier" use="required"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute type="xs:string" name="name" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute type="xs:string" name="name"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
