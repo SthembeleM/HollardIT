@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a506629d-b26a-4fcb-9cc4-6b251beba318" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScenario/PayClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testScenario/PayClaim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HollardPurpleHeron.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HollardPurpleHeron.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Environment.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/Claims.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/Claims.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 1.Loading_Page_19_10_04_03_46_36_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 10.Payment Details_Page_19_10_04_03_47_37_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 11.Case Information_Page_19_10_04_03_47_38_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 12.Super Inquiry Search for Case_Page_19_10_04_03_47_47_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 2.Policy information_Page_19_10_04_03_46_42_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 3.Claim Tab_Page_19_10_04_03_46_48_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 4.Case Information_Page_19_10_04_03_46_55_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 5.Payments Tab_Page_19_10_04_03_47_01_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 6.Case Information 2_Page_19_10_04_03_47_09_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 7.Claimed Sections 2_Page_19_10_04_03_47_10_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 8.Claim Payment_Page_19_10_04_03_47_23_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 9.Payment_Page_19_10_04_03_47_27_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testScenario/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testScenario/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/commonClasses/CommonSeleniumTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/commonClasses/CommonSeleniumTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testScenario/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testScenario/BaseClass.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testScenario/OpenClaim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="115" selection-start-line="115" selection-end-line="115" />
+            <state relative-caret-position="1921">
+              <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,30 +65,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testScenario/PayClaim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="331" column="16" lean-forward="true" selection-start-line="331" selection-start-column="16" selection-end-line="331" selection-end-column="16" />
+            <state relative-caret-position="5236">
+              <caret line="331" column="16" selection-start-line="331" selection-start-column="16" selection-end-line="331" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#23991#25634#0" />
-                <element signature="e#25640#28670#0" />
-                <element signature="e#28676#34857#0" />
-                <element signature="e#34863#38977#0" />
-                <element signature="e#38983#42017#0" />
-                <element signature="e#42023#45054#0" />
-                <element signature="e#45060#49186#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -77,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testScenario/BaseClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="99" column="55" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="55" />
+            <state relative-caret-position="-84">
+              <caret line="191" column="56" selection-start-line="191" selection-start-column="56" selection-end-line="191" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,10 +99,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/service/DriverService.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1547">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="87" column="22" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+            <state relative-caret-position="476">
+              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +122,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="85">
+              <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -119,7 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>MediaType</find>
       <find>Reference</find>
       <find>Status</find>
       <find>DataPayeeType</find>
@@ -129,7 +158,6 @@
       <find>//div[@id=&quot;csVersionsTab&quot;]//tr[@id=&quot;0&quot;]//td[5]</find>
       <find>Client</find>
       <find>dcaps</find>
-      <find>launchMybrowser</find>
       <find>DesiredCapabilities</find>
       <find>driver</find>
       <find>sheetname</find>
@@ -149,6 +177,8 @@
       <find>//td[contains(text(),'Requested Payment</find>
       <find>//div[@id=&quot;csReservesTab&quot;]//tr[2]//td[3]</find>
       <find>/div[@id=&quot;csVersionsTab&quot;]//tr[@id=&quot;0&quot;]//td[5]</find>
+      <find>launchMybrowser</find>
+      <find>launchBrowser</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,18 +210,18 @@
         <option value="$PROJECT_DIR$/src/test/java/testScenario/PurpleHeronUnderwritingTest.java" />
         <option value="C:/Users/MDube/Documents/Selenium/Training/Introduction/src/testngFiles/Annotations.java" />
         <option value="$PROJECT_DIR$/Resources/PageObjects.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testScenario/RecommendClaim.java" />
         <option value="$PROJECT_DIR$/src/test/java/testScenario/AuthoriseClaim.java" />
         <option value="$PROJECT_DIR$/src/test/java/testScenario/ClaimPaymentVerification.java" />
         <option value="$PROJECT_DIR$/src/test/java/testScenario/SalvageRecovery.java" />
         <option value="$PROJECT_DIR$/src/test/java/testScenario/CloseCase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/BaseClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/testScenario/OpenClaim.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testScenario/PayClaim.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/HollardPurpleHeron.xml" />
         <option value="$PROJECT_DIR$/Resources/Environment.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/PayClaim.java" />
+        <option value="$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testScenario/BaseClass.java" />
       </list>
     </option>
   </component>
@@ -218,18 +248,18 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="170" />
-    <option name="y" value="91" />
-    <option name="width" value="1026" />
-    <option name="height" value="546" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,12 +318,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Selenium Automation Script/SeleniumAutomationScript/HollardAutomation" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -472,12 +502,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.PurpleHeronUnderwritingTest" />
       <item itemvalue="JUnit.CloseCase" />
       <item itemvalue="JUnit.OpenClaim" />
       <item itemvalue="JUnit.PayClaim" />
-      <item itemvalue="JUnit.PurpleHeronUnderwritingTest" />
-      <item itemvalue="TestNG.C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" />
       <item itemvalue="TestNG.PayClaim" />
+      <item itemvalue="TestNG.C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" />
       <item itemvalue="TestNG.PayClaim.PayClaim" />
     </list>
     <recent_temporary>
@@ -504,34 +534,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.03 at 21h 58m 10s.xml">
+    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.07 at 11h 50m 21s.xml">
       <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.03 at 22h 04m 46s.xml">
+    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.07 at 11h 51m 26s.xml">
       <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.04 at 09h 47m 23s.xml">
+    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.07 at 11h 54m 51s.xml">
       <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.04 at 09h 53m 05s.xml">
+    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.07 at 12h 02m 26s.xml">
       <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.04 at 09h 56m 08s.xml">
+    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.07 at 12h 03m 45s.xml">
       <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PayClaim_PayClaim - 2019.10.04 at 10h 09m 43s.xml">
-      <configuration name="PayClaim.PayClaim" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.04 at 10h 37m 38s.xml">
+    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.07 at 12h 04m 18s.xml">
       <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.04 at 14h 11m 12s.xml">
+    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.07 at 12h 07m 56s.xml">
       <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.04 at 15h 39m 54s.xml">
+    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.07 at 12h 09m 35s.xml">
       <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.04 at 15h 47m 54s.xml">
+    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.07 at 12h 10m 17s.xml">
+      <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.07 at 14h 50m 07s.xml">
       <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -545,10 +575,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6993464" visible="true" weight="0.18381241" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6993464" visible="true" weight="0.1977612" />
       <window_info id="Structure" order="1" sideWeight="0.3006536" side_tool="true" weight="0.203125" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -557,7 +587,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.20355412" side_tool="true" weight="0.14765458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32169312" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.37053087" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.28494042" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45335516" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -565,7 +595,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.24918744" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.24702059" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.24549918" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -738,8 +768,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/testScenario/CreateClient.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/appModules/AgentWebAuthentication.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/testScenario/iPlatformRatesTesting.java" />
@@ -892,13 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="86" column="26" lean-forward="true" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonTestTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -990,6 +1011,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="221" column="31" selection-start-line="221" selection-start-column="31" selection-end-line="221" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testScenario/OpenClaim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3502">
@@ -997,27 +1035,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testScenario/PayClaim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testScenario/BaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="99" column="55" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="55" />
+        <state relative-caret-position="5236">
+          <caret line="331" column="16" selection-start-line="331" selection-start-column="16" selection-end-line="331" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/service/DriverService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="87" column="22" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+        <state relative-caret-position="476">
+          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testScenario/BaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="191" column="56" selection-start-line="191" selection-start-column="56" selection-end-line="191" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1026,35 +1081,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="85">
+          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testScenario/OpenClaim.java">
+    <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testScenario/PayClaim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="331" column="16" lean-forward="true" selection-start-line="331" selection-start-column="16" selection-end-line="331" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#23991#25634#0" />
-            <element signature="e#25640#28670#0" />
-            <element signature="e#28676#34857#0" />
-            <element signature="e#34863#38977#0" />
-            <element signature="e#38983#42017#0" />
-            <element signature="e#42023#45054#0" />
-            <element signature="e#45060#49186#0" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

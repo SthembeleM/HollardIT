@@ -161,9 +161,12 @@ public class BaseClass {
             //dCaps.setCapability("chrome.switches", Arrays.asList(switches));
             ChromeOptions options = new ChromeOptions();
             options.addExtensions(new File("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"));
+            options.getBrowserName();
 //            DesiredCapabilities capabilities = new DesiredCapabilities();
 //            capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 //            ChromeDriver driver = new ChromeDriver(options);
+
+
 
 
 

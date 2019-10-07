@@ -31,7 +31,8 @@ public class CommonSeleniumTester {
 
         try {
 
-            DesiredCapabilities dCaps = new DesiredCapabilities();
+            //DesiredCapabilities dCaps = new DesiredCapabilities();
+
 
             if(browserDriver.trim().toLowerCase().contains("internet explorer") || browserDriver.trim().toLowerCase().contains("internetexplorer")){
                 driver = new InternetExplorerDriver();
@@ -39,6 +40,7 @@ public class CommonSeleniumTester {
 
             else if(browserDriver.trim().toLowerCase().contains("chrome")){
                 driver = new ChromeDriver();
+
             }
 
             else if(browserDriver.trim().toLowerCase().contains("firefox")){
