@@ -3,26 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a506629d-b26a-4fcb-9cc4-6b251beba318" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HollardPurpleHeron.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HollardPurpleHeron.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Environment.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestData/Claims.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/Claims.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScenario/AuthoriseClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/AuthoriseClaim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScenario/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScenario/ClaimPaymentVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/ClaimPaymentVerification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScenario/CloseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/CloseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScenario/OpenClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScenario/PayClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScenario/PurpleHeronUnderwritingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/PurpleHeronUnderwritingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScenario/RecommendClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/RecommendClaim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScenario/SalvageRecovery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/SalvageRecovery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testScenario/AuthoriseClaim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testScenario/BaseClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testScenario/ClaimPaymentVerification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testScenario/CloseCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testScenario/OpenClaim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testScenario/PayClaim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testScenario/PurpleHeronUnderwritingTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testScenario/RecommendClaim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testScenario/SalvageRecovery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="129" column="8" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
+            <state relative-caret-position="2701">
+              <caret line="234" column="58" selection-start-line="234" selection-start-column="58" selection-end-line="234" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,53 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="149" column="56" selection-start-line="149" selection-start-column="56" selection-end-line="149" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/service/DriverService.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
-              <caret line="119" selection-start-line="119" selection-end-line="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="221">
+              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -218,11 +168,12 @@
         <option value="$PROJECT_DIR$/src/test/java/testScenario/CloseCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/testScenario/OpenClaim.java" />
         <option value="$PROJECT_DIR$/src/test/java/testScenario/PayClaim.java" />
-        <option value="$PROJECT_DIR$/Resources/Environment.properties" />
         <option value="$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java" />
         <option value="$PROJECT_DIR$/src/test/java/testScenario/BaseClass.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/HollardPurpleHeron.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" />
+        <option value="$PROJECT_DIR$/Resources/Environment.properties" />
       </list>
     </option>
   </component>
@@ -535,9 +486,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.07 at 12h 02m 26s.xml">
-      <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.07 at 12h 03m 45s.xml">
       <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
     </history-entry>
@@ -563,6 +511,9 @@
       <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.08 at 14h 55m 23s.xml">
+      <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.08 at 15h 18m 31s.xml">
       <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1029,34 +980,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/service/DriverService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="129" column="8" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1070,6 +997,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="104" column="52" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2701">
+          <caret line="234" column="58" selection-start-line="234" selection-start-column="58" selection-end-line="234" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/service/DriverService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1080,17 +1038,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="104" column="52" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

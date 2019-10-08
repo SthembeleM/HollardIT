@@ -230,6 +230,7 @@ public class OpenClaim extends BaseClass {
                 FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 2.Policy information_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 // click on claimTab and click on New button to create new claim
+                Thread.sleep(2000);
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("ClaimTab")));
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("ClaimTab")).click();
                 //Thread.sleep(2000);
