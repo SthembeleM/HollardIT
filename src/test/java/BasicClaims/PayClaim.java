@@ -8,6 +8,7 @@ import org.apache.log4j.Logger;
 //import org.junit.Assert;
 //import org.junit.Before;
 //import org.junit.Test;
+import org.apache.poi.ss.formula.functions.T;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -222,7 +223,7 @@ public class PayClaim extends BaseClass {
                 screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
                 FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 2.Policy information_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
-
+                Thread.sleep(2000);
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("ClaimTab")));
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("ClaimTab")).click();
                 Thread.sleep(5000);
@@ -238,6 +239,7 @@ public class PayClaim extends BaseClass {
                 screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
                 FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 4.Case Information_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
+                Thread.sleep(2000);
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("PaymentsTab")));
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("PaymentsTab")).click();
                 Thread.sleep(5000);
@@ -707,16 +709,16 @@ public class PayClaim extends BaseClass {
         }
 
 
-        String Client = commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("Client")).getText();
-
-        if (Client.equalsIgnoreCase(DataClient)){
-
-            commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Client"), count, "PASSED");
-        }else {
-
-            commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Client"), count, "FAILED");
-
-        }
+//        String Client = commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("Client")).getText();
+//
+//        if (Client.equalsIgnoreCase(DataClient)){
+//
+//            commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Client"), count, "PASSED");
+//        }else {
+//
+//            commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Client"), count, "FAILED");
+//
+//        }
 
 
         String PaidVAT = commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("PaidVAT")).getText();
