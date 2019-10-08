@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a506629d-b26a-4fcb-9cc4-6b251beba318" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HollardPurpleHeron.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HollardPurpleHeron.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Environment.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestData/Claims.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/Claims.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 1.Loading_Page_19_10_04_03_46_36_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 10.Payment Details_Page_19_10_04_03_47_37_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 11.Case Information_Page_19_10_04_03_47_38_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 12.Super Inquiry Search for Case_Page_19_10_04_03_47_47_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 2.Policy information_Page_19_10_04_03_46_42_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 3.Claim Tab_Page_19_10_04_03_46_48_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 4.Case Information_Page_19_10_04_03_46_55_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 5.Payments Tab_Page_19_10_04_03_47_01_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 6.Case Information 2_Page_19_10_04_03_47_09_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 7.Claimed Sections 2_Page_19_10_04_03_47_10_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 8.Claim Payment_Page_19_10_04_03_47_23_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 9.Payment_Page_19_10_04_03_47_27_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testScenario/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testScenario/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/commonClasses/CommonSeleniumTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/commonClasses/CommonSeleniumTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testScenario/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testScenario/BaseClass.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -248,11 +229,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -575,10 +556,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6993464" visible="true" weight="0.1977612" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6993464" visible="true" weight="0.2806354" />
       <window_info id="Structure" order="1" sideWeight="0.3006536" side_tool="true" weight="0.203125" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -587,7 +568,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.20355412" side_tool="true" weight="0.14765458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32169312" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.28494042" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.4304419" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45335516" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
