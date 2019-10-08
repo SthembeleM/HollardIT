@@ -1,4 +1,4 @@
-package testScenario;
+package BasicClaims;
 
 import commonClasses.CommonSeleniumTester;
 import commonClasses.CommonTestTools;
@@ -9,21 +9,14 @@ import org.apache.log4j.Logger;
 //import org.junit.Before;
 //import org.junit.Test;
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.stringtemplate.v4.ST;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 
-import javax.swing.*;
-import javax.xml.crypto.Data;
 import java.io.File;
 import java.util.Arrays;
-import java.util.List;
 
 public class RecommendClaim  extends BaseClass {
 
@@ -55,7 +48,7 @@ public class RecommendClaim  extends BaseClass {
 
     private int count = 0;
     private int rowIteration = 0;
-    static Logger log = Logger.getLogger(testScenario.PurpleHeronUnderwritingTest.class);
+    static Logger log = Logger.getLogger(BasicClaims.PurpleHeronUnderwritingTest.class);
 
     @BeforeMethod
 

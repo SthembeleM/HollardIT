@@ -1,4 +1,4 @@
-package testScenario;
+package BasicClaims;
 
 
 import commonClasses.*;
@@ -13,13 +13,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.Platform;
-import org.openqa.selenium.UnexpectedAlertBehaviour;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.File;
 import java.io.IOException;
@@ -52,7 +46,7 @@ public class BaseClass {
     LoginPopup loginPopup;
     static PageObjects pageObjects;
 
-    Logger log = Logger.getLogger(testScenario.BaseClass.class);
+    Logger log = Logger.getLogger(BasicClaims.BaseClass.class);
 
     public BaseClass(){}
 

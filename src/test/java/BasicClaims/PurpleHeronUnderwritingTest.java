@@ -1,11 +1,9 @@
-package testScenario;
+package BasicClaims;
 
-import appModules.LogIn;
 import commonClasses.CommonSeleniumTester;
 import commonClasses.CommonTestTools;
 import commonClasses.LoginPopup;
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

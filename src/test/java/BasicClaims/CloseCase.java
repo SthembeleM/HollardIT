@@ -1,30 +1,21 @@
-package testScenario;
+package BasicClaims;
 
 import commonClasses.CommonSeleniumTester;
 import commonClasses.CommonTestTools;
 import commonClasses.LoginPopup;
-import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
 import org.apache.log4j.BasicConfigurator;
 
 //import org.junit.Assert;
 //import org.junit.Before;
 //import org.junit.Test;
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.stringtemplate.v4.ST;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
-import javax.swing.*;
-import javax.xml.crypto.Data;
-import java.io.File;
+
 import java.util.Arrays;
-import java.util.List;
 
 public class CloseCase extends BaseClass {
 
