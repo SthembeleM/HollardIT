@@ -5,11 +5,6 @@
         <classes>
             <class name="testScenario.OpenClaim"/>
             <class name="testScenario.PayClaim"/>
-            <class name="testScenario.RecommendClaim"/>
-            <class name="testScenario.AuthoriseClaim"/>
-            <class name="testScenario.ClaimPaymentVerification"/>
-            <class name="testScenario.SalvageRecovery"/>
-            <class name="testScenario.CloseCase"/>
         </classes>
     </test>
 </suite>
