@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a506629d-b26a-4fcb-9cc4-6b251beba318" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Resources/Environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Environment.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestData/Claims.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/Claims.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 1.Loading_Page_19_10_08_03_17_57_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 2.Policy information_Page_19_10_08_03_18_04_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 3.Claim Tab_Page_19_10_08_03_18_10_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 4.Case Information_Page_19_10_08_03_18_25_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 5.Payments Tab_Page_19_10_08_03_18_30_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 1.Loading_Page_19_10_08_04_38_19_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 2.Policy information_Page_19_10_08_04_38_22_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 3.Claim Tab_Page_19_10_08_04_38_30_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 4.Case Information_Page_19_10_08_04_38_37_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 5.Payments Tab_Page_19_10_08_04_38_44_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 6.Case Information 2_Page_19_10_08_04_38_53_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 7.Claimed Sections 2_Page_19_10_08_04_38_54_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 8.Claim Payment_Page_19_10_08_04_39_08_QA_PayClaim.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,13 +55,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="711" column="5" lean-forward="true" selection-start-line="711" selection-start-column="5" selection-end-line="720" selection-end-column="11" />
+            <state relative-caret-position="318">
+              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#23989#25632#0" />
+                <element signature="e#25638#28668#0" />
+                <element signature="e#28674#34855#0" />
+                <element signature="e#34861#38975#0" />
+                <element signature="e#38981#42015#0" />
+                <element signature="e#42021#45052#0" />
+                <element signature="e#45058#49184#0" />
+                <element signature="e#49190#53164#0" />
+                <element signature="e#53170#54345#0" />
               </folding>
             </state>
           </provider>
@@ -67,17 +79,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="153">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -176,8 +188,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/HollardPurpleHeron.xml" />
         <option value="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" />
-        <option value="$PROJECT_DIR$/Resources/Environment.properties" />
         <option value="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" />
+        <option value="$PROJECT_DIR$/Resources/Environment.properties" />
       </list>
     </option>
   </component>
@@ -205,7 +217,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2242" />
+    <option name="x" value="-2158" />
     <option name="y" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="733" />
@@ -310,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PayClaim.PayClaim">
+  <component name="RunManager" selected="TestNG.C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -468,8 +480,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PayClaim.PayClaim" />
         <item itemvalue="TestNG.C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" />
+        <item itemvalue="TestNG.PayClaim.PayClaim" />
         <item itemvalue="JUnit.PayClaim" />
         <item itemvalue="JUnit.OpenClaim" />
         <item itemvalue="JUnit.CloseCase" />
@@ -490,12 +502,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.08 at 14h 54m 13s.xml">
-      <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.08 at 14h 54m 40s.xml">
-      <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.08 at 14h 55m 23s.xml">
       <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
     </history-entry>
@@ -520,6 +526,12 @@
     <history-entry file="PayClaim_PayClaim - 2019.10.08 at 16h 39m 11s.xml">
       <configuration name="PayClaim.PayClaim" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PayClaim_PayClaim - 2019.10.09 at 14h 41m 14s.xml">
+      <configuration name="PayClaim.PayClaim" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.09 at 14h 44m 23s.xml">
+      <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -543,7 +555,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.20355412" side_tool="true" weight="0.14765458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32169312" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.47995666" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.2751896" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45335516" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -638,14 +650,6 @@
           <line>157</line>
           <properties />
           <option name="timeStamp" value="240" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java</url>
-          <line>845</line>
-          <properties class="BasicClaims.PayClaim" method="CaseVersionValidations">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="241" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1008,20 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1041,11 +1031,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="711" column="5" lean-forward="true" selection-start-line="711" selection-start-column="5" selection-end-line="720" selection-end-column="11" />
+        <state relative-caret-position="318">
+          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#23989#25632#0" />
+            <element signature="e#25638#28668#0" />
+            <element signature="e#28674#34855#0" />
+            <element signature="e#34861#38975#0" />
+            <element signature="e#38981#42015#0" />
+            <element signature="e#42021#45052#0" />
+            <element signature="e#45058#49184#0" />
+            <element signature="e#49190#53164#0" />
+            <element signature="e#53170#54345#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
