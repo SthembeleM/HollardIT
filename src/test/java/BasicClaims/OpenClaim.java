@@ -83,12 +83,10 @@ public class OpenClaim extends BaseClass {
     String DataGlassReceipt;
 
     private int count = 0;
-    private int rowIteration = 0;
     static Logger log = Logger.getLogger(BasicClaims.PurpleHeronUnderwritingTest.class);
 
     @BeforeClass
-    public void
-    init() throws Exception {
+    public void init() throws Exception {
 
         reportColumns = new String[]
 

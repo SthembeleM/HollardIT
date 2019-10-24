@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a506629d-b26a-4fcb-9cc4-6b251beba318" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/Environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Environment.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestData/Claims.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/Claims.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 1.Loading_Page_19_10_08_04_38_19_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 2.Policy information_Page_19_10_08_04_38_22_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 3.Claim Tab_Page_19_10_08_04_38_30_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 4.Case Information_Page_19_10_08_04_38_37_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 5.Payments Tab_Page_19_10_08_04_38_44_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 6.Case Information 2_Page_19_10_08_04_38_53_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 7.Claimed Sections 2_Page_19_10_08_04_38_54_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 8.Claim Payment_Page_19_10_08_04_39_08_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 1.Loading_Page_19_10_09_02_43_32_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 2.Policy information_Page_19_10_09_02_43_35_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 3.Claim Tab_Page_19_10_09_02_43_43_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 4.Case Information_Page_19_10_09_02_43_50_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 5.Payments Tab_Page_19_10_09_02_43_58_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 6.Case Information 2_Page_19_10_09_02_44_05_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 7.Claimed Sections 2_Page_19_10_09_02_44_06_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 8.Claim Payment_Page_19_10_09_02_44_20_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HollardAutomation-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-testScenario.PayClaim.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testScenario.PayClaim.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicClaims/OpenClaim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicClaims/OpenClaim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/HollardAutomation.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="930" column="166" selection-start-line="930" selection-start-column="160" selection-end-line="930" selection-end-column="166" />
+            <state relative-caret-position="932">
+              <caret line="116" column="48" lean-forward="true" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,30 +57,75 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
+        <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="261" column="29" selection-start-line="261" selection-start-column="23" selection-end-line="261" selection-end-column="29" />
+            <state relative-caret-position="170">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+            <state relative-caret-position="509">
+              <caret line="635" column="63" selection-start-line="635" selection-start-column="63" selection-end-line="635" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#23989#25632#0" />
-                <element signature="e#25638#28668#0" />
-                <element signature="e#28674#34855#0" />
-                <element signature="e#34861#38975#0" />
-                <element signature="e#38981#42015#0" />
-                <element signature="e#42021#45052#0" />
-                <element signature="e#45058#49184#0" />
-                <element signature="e#49190#53164#0" />
-                <element signature="e#53170#54345#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonTestTools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/objectRepository/PageObjects.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,26 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="104" column="52" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
+            <state relative-caret-position="85">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -115,9 +152,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>//table[@id=&quot;prCaseGrid_TABLE&quot;]//tr[@id=&quot;0&quot;]//td[contains(text(),&quot;Iqbal Trading&quot;)]</find>
-      <find>//table[@id=&quot;ccpadAuthGrid_TABLE&quot;]//td[contains(text(),&quot;Request&quot;)]</find>
-      <find>TotalIncurred</find>
       <find>//div[@id=&quot;csVersionsTab&quot;]//tr[@id=&quot;0&quot;]//td[5]</find>
       <find>dcaps</find>
       <find>DesiredCapabilities</find>
@@ -145,6 +179,9 @@
       <find>Version</find>
       <find>CaseVersionDescDetailsValidations</find>
       <find>Client</find>
+      <find>java</find>
+      <find>setUpLaunchBrowser</find>
+      <find>pageObjectFileName</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,9 +224,11 @@
         <option value="$PROJECT_DIR$/src/test/java/testScenario/BaseClass.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/HollardPurpleHeron.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" />
         <option value="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java" />
+        <option value="$PROJECT_DIR$/Resources/PageObjectsSchema.xsd" />
         <option value="$PROJECT_DIR$/Resources/Environment.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" />
       </list>
     </option>
   </component>
@@ -212,21 +251,32 @@
           <item name="HollardAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="HollardAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="HollardAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2158" />
+    <option name="x" value="-1928" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="733" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -286,12 +336,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Selenium Automation Script/SeleniumAutomationScript/HollardAutomation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -322,7 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml">
+  <component name="RunManager" selected="TestNG.OpenClaim">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -342,41 +391,6 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenClaim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HollardAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicClaims.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BasicClaims" />
-      <option name="MAIN_CLASS_NAME" value="BasicClaims.OpenClaim" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PayClaim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HollardAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicClaims.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BasicClaims" />
-      <option name="MAIN_CLASS_NAME" value="BasicClaims.PayClaim" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -410,6 +424,25 @@
       <module name="HollardAutomation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/HollardPurpleHeron.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenClaim" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HollardAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BasicClaims.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BasicClaims" />
+      <option name="MAIN_CLASS_NAME" value="BasicClaims.OpenClaim" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -472,18 +505,16 @@
     <list>
       <item itemvalue="JUnit.PurpleHeronUnderwritingTest" />
       <item itemvalue="JUnit.CloseCase" />
-      <item itemvalue="JUnit.OpenClaim" />
-      <item itemvalue="JUnit.PayClaim" />
       <item itemvalue="TestNG.PayClaim" />
       <item itemvalue="TestNG.C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" />
       <item itemvalue="TestNG.PayClaim.PayClaim" />
+      <item itemvalue="TestNG.OpenClaim" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.OpenClaim" />
         <item itemvalue="TestNG.C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" />
         <item itemvalue="TestNG.PayClaim.PayClaim" />
-        <item itemvalue="JUnit.PayClaim" />
-        <item itemvalue="JUnit.OpenClaim" />
         <item itemvalue="JUnit.CloseCase" />
       </list>
     </recent_temporary>
@@ -502,12 +533,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.08 at 14h 55m 23s.xml">
-      <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.08 at 15h 18m 31s.xml">
-      <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.08 at 16h 05m 55s.xml">
       <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
     </history-entry>
@@ -532,6 +557,12 @@
     <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.09 at 14h 44m 23s.xml">
       <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.13 at 16h 56m 35s.xml">
+      <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenClaim - 2019.10.24 at 10h 28m 44s.xml">
+      <configuration name="OpenClaim" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -546,7 +577,7 @@
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6993464" visible="true" weight="0.1977612" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6993464" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="1" sideWeight="0.3006536" side_tool="true" weight="0.203125" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -555,13 +586,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.20355412" side_tool="true" weight="0.14765458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32169312" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.2751896" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.35969663" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45335516" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.1928494" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.24918744" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24549918" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -573,10 +604,10 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" sideWeight="0.49946865" visible="true" weight="0.09375" />
       <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5019557" side_tool="true" weight="0.1375" />
-      <window_info anchor="right" id="Maven" order="9" sideWeight="0.49804434" weight="0.30862328" />
+      <window_info anchor="right" id="Maven" order="9" sideWeight="0.49804434" weight="0.30786687" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6993464" visible="true" weight="0.22768533" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6993464" visible="true" weight="0.24130106" />
       <window_info id="Structure" order="1" sideWeight="0.3006536" side_tool="true" weight="0.203125" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -585,15 +616,15 @@
       <window_info id="Favorites" order="6" sideWeight="0.20355412" side_tool="true" weight="0.14765458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32169312" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.42716858" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.36006546" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45335516" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.1928494" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.24918744" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.24702059" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.24549918" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -603,7 +634,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" sideWeight="0.49946865" visible="true" weight="0.09375" />
       <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5019557" side_tool="true" weight="0.1375" />
-      <window_info anchor="right" id="Maven" order="9" sideWeight="0.49804434" weight="0.30862328" />
+      <window_info anchor="right" id="Maven" order="9" sideWeight="0.49804434" weight="0.30786687" />
     </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
@@ -650,6 +681,12 @@
           <line>157</line>
           <properties />
           <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java</url>
+          <line>367</line>
+          <properties />
+          <option name="timeStamp" value="243" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -796,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/PageObjectsSchema.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/LoginPopup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -867,26 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/objectRepository/PageObjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="126" column="45" selection-start-line="126" selection-start-column="45" selection-end-line="126" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonTestTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -971,30 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="221" column="31" selection-start-line="221" selection-start-column="31" selection-end-line="221" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="104" column="52" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/service/DriverService.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1002,27 +988,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="149" column="56" selection-start-line="149" selection-start-column="56" selection-end-line="149" selection-end-column="56" />
+        <state relative-caret-position="195">
+          <caret line="221" column="31" selection-start-line="221" selection-start-column="31" selection-end-line="221" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/PageObjectsSchema.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonTestTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="261" column="29" selection-start-line="261" selection-start-column="23" selection-end-line="261" selection-end-column="29" />
+        <state relative-caret-position="816">
+          <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/objectRepository/PageObjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="930" column="166" selection-start-line="930" selection-start-column="160" selection-end-line="930" selection-end-column="166" />
+        <state relative-caret-position="932">
+          <caret line="116" column="48" lean-forward="true" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1031,34 +1082,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+        <state relative-caret-position="509">
+          <caret line="635" column="63" selection-start-line="635" selection-start-column="63" selection-end-line="635" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#23989#25632#0" />
-            <element signature="e#25638#28668#0" />
-            <element signature="e#28674#34855#0" />
-            <element signature="e#34861#38975#0" />
-            <element signature="e#38981#42015#0" />
-            <element signature="e#42021#45052#0" />
-            <element signature="e#45058#49184#0" />
-            <element signature="e#49190#53164#0" />
-            <element signature="e#53170#54345#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
