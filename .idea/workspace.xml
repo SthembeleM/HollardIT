@@ -2,326 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a506629d-b26a-4fcb-9cc4-6b251beba318" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_02_20_26_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_02_24_12_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_02_27_58_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_02_30_05_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_02_54_57_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_03_01_05_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_03_02_03_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_03_04_47_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_03_08_46_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_03_09_12_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_03_12_32_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_03_13_54_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_04_06_49_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_04_13_11_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_04_14_17_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_04_39_42_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_05_04_20_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_05_15_17_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_05_17_08_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_05_32_39_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_10_21_20_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_10_28_58_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_10_36_11_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_11_10_50_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_11_14_28_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_11_16_28_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_11_40_20_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_11_41_22_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_11_43_12_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_03_13_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_04_07_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_12_39_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_15_58_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_17_18_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_28_18_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_30_05_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_32_06_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_01_01_30_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_01_03_01_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_01_04_40_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_01_07_18_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_01_09_00_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_03_02_31_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_03_08_15_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_03_13_01_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_09_37_34_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_09_37_51_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_36_30_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_37_16_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_39_52_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_42_40_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_44_54_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_47_00_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_49_45_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_50_54_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_53_10_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_55_51_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_58_19_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_19_10_21_29_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_20_11_30_22_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_20_11_38_47_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_20_11_40_46_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_20_11_43_32_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_20_12_11_04_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_20_12_18_41_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_20_12_24_50_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_04_26_38_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_04_30_03_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_04_31_50_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_04_33_40_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_05_29_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_08_38_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_12_37_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_13_22_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_15_26_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_20_02_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_21_39_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_21_49_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_12_27_19_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_12_29_26_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_12_33_35_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_01_57_10_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_02_17_09_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_02_20_24_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_02_27_51_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_02_28_05_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_02_29_21_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_08_33_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_11_09_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_13_49_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_24_30_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_26_04_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_29_21_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_31_40_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_36_47_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_39_46_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_45_17_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_12_31_44_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_12_33_41_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_12_38_01_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_12_41_01_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_12_44_38_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_12_49_45_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_02_00_40_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_02_30_58_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_02_33_52_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_02_36_22_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_02_37_53_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_10_46_50_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_10_49_38_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_10_54_25_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_10_55_22_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_10_56_43_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_28_02_03_02_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_28_02_06_23_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_28_02_14_01_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_28_02_16_33_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_28_02_16_50_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_28_02_28_14_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_28_02_48_09_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_30_02_29_17_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_03_10_28_09_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_03_10_36_20_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_03_10_39_00_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_03_11_25_42_QA_OpenClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_03_11_30_33_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_03_11_33_11_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_05_04_20_57_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_25_12_09_30_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_25_12_16_54_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_25_12_34_55_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_25_12_37_19_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_25_12_38_42_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_25_12_39_17_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_01_02_53_08_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_01_02_53_40_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_02_03_50_51_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_02_04_34_12_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_02_04_34_51_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_02_37_33_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_02_37_38_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_02_37_40_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_02_43_53_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_02_43_56_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_02_43_58_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_02_59_55_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_00_24_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_06_23_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_06_26_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_16_33_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_17_27_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_18_02_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_18_08_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_27_21_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_27_24_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_27_56_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_29_03_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_29_20_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_31_26_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_32_28_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_32_44_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_32_47_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_32_49_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_32_51_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_32_54_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_33_51_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_33_54_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_39_04_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_39_10_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_39_16_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_43_25_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_45_00_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_46_22_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_48_01_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_48_53_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_49_00_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_01_26_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_02_19_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_02_40_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_03_46_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_04_26_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_04_34_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_04_39_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_08_41_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_09_16_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_10_15_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_10_37_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_12_15_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_13_41_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_15_07_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_15_25_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_17_13_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_22_52_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_22_56_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_23_04_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_25_51_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_25_54_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_28_27_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_28_30_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_28_33_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_29_32_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_29_35_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_30_29_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_30_32_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_30_34_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_32_55_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_32_59_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_34_06_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_45_03_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_47_25_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_49_36_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_49_38_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_49_41_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_58_08_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_59_56_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_10_02_24_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_10_04_39_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_10_04_41_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_10_04_44_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_00_40_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_00_49_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_00_52_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_00_55_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_00_58_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_22_40_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_22_44_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_22_47_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_22_50_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_22_53_QA_PayClaim.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_02_08_33_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_02_09_34_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_03_37_12_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_03_38_43_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_03_44_48_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_03_46_08_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_09_46_59_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_09_51_24_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_09_53_37_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_09_54_59_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_10_08_06_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_10_34_18_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_10_36_01_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_03_15_22_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_03_15_45_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_03_20_31_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_03_20_54_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_03_29_51_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_03_30_15_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_07_45_11_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_07_45_34_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_07_54_29_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_07_54_53_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_07_59_25_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_07_59_49_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_02_49_45_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_10_13_24_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_10_13_51_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_15_42_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_16_39_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_17_03_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_17_45_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_18_08_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_29_30_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_30_31_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_30_55_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_32_52_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_33_16_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_37_35_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_37_40_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_37_43_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_37_45_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_38_23_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_40_00_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_40_23_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_45_38_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_49_58_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_50_55_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_51_19_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_54_25_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_54_49_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_02_00_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_02_24_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_03_17_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_03_41_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_03_53_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_07_31_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_09_28_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_09_31_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_09_58_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_38_04_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_39_21_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_02_55_08_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_03_16_07_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_03_17_22_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_04_02_10_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_04_04_26_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_04_11_30_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_04_13_47_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_04_16_52_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_04_18_43_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_04_36_51_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_09_02_41_35_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_09_02_43_09_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_13_04_55_18_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_15_08_52_56_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_15_08_53_17_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_15_08_53_42_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_15_08_54_03_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_15_08_54_29_QA_null.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Environment.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/PageObjects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PageObjects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestData/Claims.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/Claims.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicClaims/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicClaims/BaseClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicClaims/OpenClaim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicClaims/OpenClaim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicClaims/PayClaim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicClaims/PayClaim.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -347,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="1103" selection-start-line="1103" selection-end-line="1103" />
+            <state relative-caret-position="-1908">
+              <caret line="211" column="28" selection-start-line="211" selection-start-column="16" selection-end-line="211" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#21207#37994#0" />
@@ -362,10 +45,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodInvocationHelper.class">
+        <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -373,10 +56,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
-              <caret line="469" selection-start-line="469" selection-end-line="469" />
+            <state relative-caret-position="-414">
+              <caret line="356" selection-start-line="356" selection-end-line="356" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#23955#25598#0" />
+                <element signature="e#25604#28634#0" />
+                <element signature="e#28640#34821#0" />
+                <element signature="e#34827#38941#0" />
+                <element signature="e#38947#42001#0" />
+                <element signature="e#42007#45038#0" />
+                <element signature="e#45044#49188#0" />
+                <element signature="e#49194#53168#0" />
+                <element signature="e#53174#54349#0" />
               </folding>
             </state>
           </provider>
@@ -385,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="385" selection-start-line="385" selection-end-line="385" />
+            <state relative-caret-position="305">
+              <caret line="388" column="39" selection-start-line="388" selection-start-column="25" selection-end-line="388" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getDataSheetList#0;class#BaseClass#0" />
@@ -407,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="252" column="70" selection-start-line="252" selection-start-column="70" selection-end-line="252" selection-end-column="70" />
+            <state relative-caret-position="170">
+              <caret line="220" column="30" selection-start-line="220" selection-start-column="23" selection-end-line="220" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -425,8 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Request</find>
-      <find>Status1</find>
       <find>ClaimBordereauValidation()</find>
       <find>screenShotsDir</find>
       <find>prop</find>
@@ -455,6 +145,8 @@
       <find>//td[contains(text(),&quot;8,695.65&quot;)]</find>
       <find>CaseVersionDescDetails</find>
       <find>Transa</find>
+      <find>//table[@id=&quot;ccpadAuthGrid_TABLE&quot;]//td[contains(text(),&quot;Request&quot;)]</find>
+      <find>testCaseName</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -498,10 +190,10 @@
         <option value="$PROJECT_DIR$/Resources/PageObjectsSchema.xsd" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Resources/Environment.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" />
         <option value="$PROJECT_DIR$/Resources/PageObjects.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" />
         <option value="$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" />
       </list>
     </option>
   </component>
@@ -559,11 +251,6 @@
             <path>
               <item name="HollardAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="HollardAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="ExtentReport" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HollardAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HollardAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -607,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.OpenClaim">
+  <component name="RunManager" selected="TestNG.PayClaim">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -704,12 +391,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpenClaim - 2019.11.08 at 14h 02m 05s.xml">
-      <configuration name="OpenClaim" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenClaim - 2019.11.08 at 14h 05m 24s.xml">
-      <configuration name="OpenClaim" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="OpenClaim - 2019.11.08 at 14h 10m 14s.xml">
       <configuration name="OpenClaim" configurationId="TestNG" />
     </history-entry>
@@ -734,6 +415,12 @@
     <history-entry file="OpenClaim - 2019.11.08 at 15h 07m 53s.xml">
       <configuration name="OpenClaim" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PayClaim - 2019.11.08 at 15h 54m 36s.xml">
+      <configuration name="PayClaim" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PayClaim - 2019.11.08 at 15h 58m 04s.xml">
+      <configuration name="PayClaim" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -746,6 +433,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6977248" visible="true" weight="0.26385927" />
       <window_info id="Structure" order="1" sideWeight="0.30227518" side_tool="true" weight="0.22014925" />
@@ -756,8 +444,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.20355412" side_tool="true" weight="0.14765458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32169312" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.35969663" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45287108" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.35969663" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31744313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.1928494" />
@@ -1104,13 +792,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExtentReport/test.html" />
-    <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Users/MDube/Documents/Selenium/Training/Ekundu/src/ekundu/Tests/NewBusiness.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1235,13 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="252" column="70" selection-start-line="252" selection-start-column="70" selection-end-line="252" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/TestInvoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1256,20 +930,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="469" selection-start-line="469" selection-end-line="469" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1574">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="385" selection-start-line="385" selection-end-line="385" />
+        <state relative-caret-position="305">
+          <caret line="388" column="39" selection-start-line="388" selection-start-column="25" selection-end-line="388" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getDataSheetList#0;class#BaseClass#0" />
@@ -1277,10 +948,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="220" column="30" selection-start-line="220" selection-start-column="23" selection-end-line="220" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#23955#25598#0" />
+            <element signature="e#25604#28634#0" />
+            <element signature="e#28640#34821#0" />
+            <element signature="e#34827#38941#0" />
+            <element signature="e#38947#42001#0" />
+            <element signature="e#42007#45038#0" />
+            <element signature="e#45044#49188#0" />
+            <element signature="e#49194#53168#0" />
+            <element signature="e#53174#54349#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="1103" selection-start-line="1103" selection-end-line="1103" />
+        <state relative-caret-position="-1908">
+          <caret line="211" column="28" selection-start-line="211" selection-start-column="16" selection-end-line="211" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#21207#37994#0" />
@@ -1292,10 +989,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodInvocationHelper.class">
+    <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

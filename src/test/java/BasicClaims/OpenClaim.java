@@ -325,17 +325,15 @@ public class OpenClaim extends BaseClass {
 
                 commonSeleniumTester.getDriver().close();
 
-//                Assert.assertTrue(false);
-//                getResult(result);
 
         }catch (Exception ex){
             commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "OverAll Test Result"), count, "FAILED");
             commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Reason"), count, ex.getMessage());
             Assert.fail(ex.getMessage());
-    //        Assert.assertTrue(false);
         }
 
     }
+
     }
 
     public void CaseInformationValidation() {

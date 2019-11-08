@@ -13,6 +13,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
@@ -214,17 +215,17 @@ public class PayClaim extends BaseClass {
                 //Thread.sleep(10000);
 
 
-                log.info("Reading data sheet");
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 1.Loading_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+              //  log.info("Reading data sheet");
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 1.Loading_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 // click Super Inquiry Search Results - Policy
                 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='" + policyNumber + "']/td[1]")));
                 commonSeleniumTester.getDriver().findElement(By.xpath("//*[@id='" + policyNumber + "']/td[1]")).click();
                 //Thread.sleep(5000);
 
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 2.Policy information_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 2.Policy information_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 Thread.sleep(2000);
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("ClaimTab")));
@@ -232,22 +233,22 @@ public class PayClaim extends BaseClass {
                 Thread.sleep(5000);
 
                 CaseInformationValidation();
-
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 3.Claim Tab_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 3.Claim Tab_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("Claim1")).click();
                 Thread.sleep(5000);
                 CaseDetailsValidations();
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 4.Case Information_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 4.Case Information_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 Thread.sleep(2000);
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("PaymentsTab")));
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("PaymentsTab")).click();
                 Thread.sleep(5000);
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 5.Payments Tab_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 5.Payments Tab_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("CasePaymentType1")).click();
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("CasePaymentType2")).click();
@@ -257,13 +258,13 @@ public class PayClaim extends BaseClass {
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("CasePaymentTypeButton")).click();
 
                 Thread.sleep(2000);
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 6.Case Information 2_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 6.Case Information 2_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("ExpandGlass")));
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("ExpandGlass")).click();
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 7.Claimed Sections 2_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 7.Claimed Sections 2_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("ExpandGlass2")).click();
                 Thread.sleep(2000);
 
@@ -278,26 +279,26 @@ public class PayClaim extends BaseClass {
 
                 Thread.sleep(3000);
                 CreditControlDetailsValidation();
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 8.Claim Payment_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 8.Claim Payment_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 Thread.sleep(2000);
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("PayButton")));
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("PayButton")).click();
                 PaymentScreenValidation();
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 9.Payment_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 9.Payment_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 Thread.sleep(4000);
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("PaymentReference")));
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("PaymentReference")).sendKeys("Test EFT Client Payment");
                 Thread.sleep(5000);
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 10.Payment Details_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 10.Payment Details_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("RequestPaymentButton")).click();
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 11.Case Information_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 11.Case Information_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
 
                 JavascriptExecutor jse = (JavascriptExecutor)commonSeleniumTester.getDriver();
@@ -313,8 +314,8 @@ public class PayClaim extends BaseClass {
                 //Thread.sleep(5000);
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("CaseNum")));
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("CaseNum")).sendKeys(CaseNumber);
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 12.Super Inquiry Search for Case_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 12.Super Inquiry Search for Case_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("Search")).click();
                 Thread.sleep(2000);
@@ -330,8 +331,8 @@ public class PayClaim extends BaseClass {
                // CaseVersionValidations();
 
                 Thread.sleep(2000);
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 13.Case Versions Tab_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 13.Case Versions Tab_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("PaymentsTab")));
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("PaymentsTab")).click();
@@ -339,8 +340,8 @@ public class PayClaim extends BaseClass {
 
 //                PaymentRequestValidations();
 
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 14.Payments Tab_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 14.Payments Tab_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
 //                wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("CasePaymentGrid")));
                 Thread.sleep(1000);
@@ -348,8 +349,11 @@ public class PayClaim extends BaseClass {
 
                //ClaimBordereauValidation();
 
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 15.Payments Tab 2_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 15.Payments Tab 2_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+
+                String status = commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("Status1")).getText();
+                Assert.assertEquals(status,"Request");
 
 
                 commonSeleniumTester.getDriver().close();
@@ -1053,13 +1057,17 @@ public class PayClaim extends BaseClass {
 
 
 
+    @AfterMethod
+    public void getResult(ITestResult result) throws Exception {
+
+        getResults(result);
+    }
+
     @AfterTest
     public void CloseBrowser(){
 
         extentReport.flush();
-
     }
-
 
 
 }
