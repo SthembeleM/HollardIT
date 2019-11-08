@@ -47,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="153">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -251,6 +251,11 @@
             <path>
               <item name="HollardAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="HollardAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="ExtentReport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HollardAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HollardAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -433,9 +438,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6977248" visible="true" weight="0.26385927" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6977248" visible="true" weight="0.26385927" />
       <window_info id="Structure" order="1" sideWeight="0.30227518" side_tool="true" weight="0.22014925" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -444,7 +448,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.20355412" side_tool="true" weight="0.14765458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32169312" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.35969663" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.35969663" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31744313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -991,8 +995,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
