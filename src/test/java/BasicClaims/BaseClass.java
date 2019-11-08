@@ -1,8 +1,15 @@
 package BasicClaims;
 
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import commonClasses.*;
 import objectRepository.PageObjects;
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
@@ -13,7 +20,10 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.ITestResult;
 
 import java.io.File;
 import java.io.IOException;
@@ -28,10 +38,14 @@ public class BaseClass {
     public final String reportsDir = "Reports";
     public final String uploadDirectory = testDataDir + File.separator + "files";
     public final String screenShotsDir = "screenshots";
-
+    public final String ExtentReport = "ExtentReport";
+    ExtentReports extentReport;
+    ExtentTest ext;
 
     public Properties prop;
     public String environment = "";
+    public String ExtentReportFile;
+    public String ScreenShotsFile;
     public String reportFile;
     public String[] headers;
     public String dataSheetName;
@@ -42,9 +56,13 @@ public class BaseClass {
     CommonDBTester commonDBTester;
     CommonExcelTester commonExcelTester;
     CommonFileTester commonFileTester;
+
     CommonSeleniumTester commonSeleniumTester;
     LoginPopup loginPopup;
     static PageObjects pageObjects;
+    static String reporter;
+
+
 
     Logger log = Logger.getLogger(BasicClaims.BaseClass.class);
 
@@ -72,21 +90,17 @@ public class BaseClass {
             throw new Exception("Page Object file name not specified");
         }
 
-        log.info("Test Information" + "\nOS\t:" + System.getProperty("os.name") +
-                "\nUser\t:" + System.getProperty("user.name") +
-                "\nBrowser\t:" + prop.get("BrowserName") +
-                "\nEnvironment\t:" + environment +
-                "\nURL\t:" + prop.getProperty(environment + "URL"));
+//        log.info("Test Information" + "\nOS\t:" + System.getProperty("os.name") +
+//                "\nUser\t:" + System.getProperty("user.name") +
+//                "\nBrowser\t:" + prop.get("BrowserName") +
+//                "\nEnvironment\t:" + environment +
+//                "\nURL\t:" + prop.getProperty(environment + "URL"));
 
-//        String pageObjectFileName = prop.getProperty("ObjectRepositoryFile");
-//        if (pageObjectFileName == null || pageObjectFileName.isEmpty()) {
-//            throw new Exception("Page Object file name not specified");
-//        }
         pageObjects.getDOM(pageObjectFileName);
         pageObjects.setXmlElementNode("element");
 
         environment = prop.getProperty("ENV").trim();
-        if (!(environment.matches("QA") || environment.matches("DEV") || environment.matches("INT") || environment.matches("QA_via_JCAPS") || environment.matches("MMI_QA") || environment.matches("MMI_STRESS"))) {            //validate input environment
+        if (!(environment.matches("QA") || environment.matches("UAT") || environment.matches("PER") || environment.matches("TST") || environment.matches("SUPP"))) {            //validate input environment
             throw new Exception("Incorrect Test Environment specified");
         }
 
@@ -104,20 +118,19 @@ public class BaseClass {
             report.mkdir();
             report.mkdir();
         }
-        reportFile = "Reports" + File.separator + "Report_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".xls";
+        reportFile = "Reports" + File.separator + "Report_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + dataSheetName + ".xls";
         log.info("Report\t:" + reportFile);
 
         File file = new File(uploadDirectory);
-
         commonFileTester.deleteFiles(file);                                     //delete the message files
         Thread.sleep(2000);
         file.mkdir();                                                //re-create new directory to contain message files
         file.mkdir();
 
-        File screenShotFile = new File(screenShotsDir);
-        commonFileTester.deleteFiles(screenShotFile);                                     //delete the screenshots files
-        screenShotFile.mkdir();                                                //re-create new directory to contain screenshots
-        screenShotFile.mkdir();
+//        File screenShotFile = new File(screenShotsDir);
+//        commonFileTester.deleteFiles(screenShotFile);                                     //delete the screenshots files
+//        screenShotFile.mkdir();                                                //re-create new directory to contain screenshots
+//        screenShotFile.mkdir();
 
         log.info("Creating Excel Report");
         commonExcelTester.CreateExcelDoc(reportFile);
@@ -146,49 +159,27 @@ public class BaseClass {
 
     public void setUpLaunchBrowser()throws Exception{
 
-       // DesiredCapabilities dCaps;
         log.info("Setting the capabilities and driver configurations");
         if (prop.getProperty("BrowserName").trim().toLowerCase().contains("chrome")) {
             System.setProperty("webdriver.chrome.driver", "Resources" + File.separator + "chromedriver.exe");
-            //dCaps = new DesiredCapabilities().chrome();
-            //String[] switches = {"--ignore-certificate-errors", "--disable-popup-blocking", "--disable-translate", "--incognito"};
-            //dCaps.setCapability("chrome.switches", Arrays.asList(switches));
             ChromeOptions options = new ChromeOptions();
             options.addExtensions(new File("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"));
             options.getBrowserName();
-//            DesiredCapabilities capabilities = new DesiredCapabilities();
-//            capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-//            ChromeDriver driver = new ChromeDriver(options);
-
-
-
-
-
-//            options.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR,
-//                    UnexpectedAlertBehaviour.IGNORE);
-//            options.addArguments("test-type");
 
 
         } else if (prop.getProperty("BrowserName").trim().toLowerCase().contains("internet")) {
             System.setProperty("webdriver.ie.driver", "Resources" + File.separator + "IEDriverServer.exe");
-            //dCaps = new DesiredCapabilities().internetExplorer();
+
         } else if (prop.getProperty("BrowserName").trim().toLowerCase().contains("firefox")) {
-           // dCaps = new DesiredCapabilities().firefox();
-        } else {
-            //dCaps = new DesiredCapabilities();
+
         }
-        //dCaps.setPlatform(Platform.VISTA);
 
-        //dCaps.setJavascriptEnabled(true);
-
-        //log.info("Driver Capabilities\t:" + dCaps);
-        log.info("Initializing the driver");
+//        log.info("Initializing the driver");
         commonSeleniumTester = new CommonSeleniumTester(prop.getProperty("BrowserName"));
-        log.info("driver configurations\t" + commonSeleniumTester.getDriver());
-        log.info("Launching the browser");
+//        log.info("driver configurations\t" + commonSeleniumTester.getDriver());
+//        log.info("Launching the browser");
         commonSeleniumTester.launchBrowser(prop.getProperty(environment + "URL"));
         commonSeleniumTester.launchMybrowser();
-//        prop.getProperty(environment + "URL");
 
     }
 
@@ -353,5 +344,72 @@ public class BaseClass {
         return (dotInd > 0 && dotInd < fileName.length()) ? fileName
                 .substring(dotInd + 1) : "";
     }
+
+    public void generateReport() {
+
+
+        File extent = new File(ExtentReport);
+        if(!extent.exists()){
+            extent.mkdir();
+            extent.mkdir();
+        }
+        ExtentReportFile = "ExtentReport" + File.separator + dataSheetName +"Report_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".html";
+       // log.info("Report\t:" + reportFile);
+
+        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(ExtentReportFile);
+        htmlReporter.config().setReportName(sheetName + "Report");
+        htmlReporter.config().setDocumentTitle(dataSheetName + "Report");
+        extentReport = new ExtentReports();
+        extentReport.attachReporter(htmlReporter);
+
+
+        ext = extentReport.createTest(sheetName +  "Report");
+        ext.assignAuthor("Mpumelelo Dube");
+        ext.info("Loading" + sheetName + "Test case");
+
+
+
+    }
+
+    public void getResults(ITestResult result) throws Exception {
+        if (result.getStatus() == ITestResult.FAILURE) {
+            String SS = getScreenshots(commonSeleniumTester, "ScreenshotFail");
+            ext.log(Status.FAIL, MarkupHelper.createLabel(result.getName() + " Test case FAILED due to below issues:", ExtentColor.RED));
+            ext.fail(result.getThrowable().getMessage());
+            ext.fail("Snapshot below: " + ext.addScreenCaptureFromPath(SS));
+        } else if (result.getStatus() == ITestResult.SUCCESS) {
+           // String SS = getScreenshots(commonSeleniumTester, "ScreenshotPass");
+            ext.log(Status.PASS, MarkupHelper.createLabel(result.getName() + " Test Case PASSED", ExtentColor.GREEN));
+            ext.pass("Snapshot below: " + ext.addScreenCaptureFromPath(screenShotsDir));
+        }
+
+    }
+
+
+    public static String getScreenshots(CommonSeleniumTester commonSeleniumTester, String screenshotName) throws IOException {
+
+        TakesScreenshot ts = (TakesScreenshot) commonSeleniumTester.getDriver();
+        File source = ts.getScreenshotAs(OutputType.FILE);
+
+        String destination = System.getProperty("user.dir") + "/screenshots/" + screenshotName + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" +".png";
+        File finalDestination = new File(destination);
+        FileUtils.deleteQuietly(source);
+        FileUtils.copyFile(source, finalDestination);
+        return destination;
+
+//        File screenShotFile = new File(screenShotsDir);
+//        screenShotFile.mkdir();
+//        screenShotFile.mkdir();
+//
+//        //ScreenShotsFile = "screenshots" + File.separator + "ScreenShot" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".html";
+//        // log.info("Report\t:" + reportFile);
+//
+//        File ScreenShots = ((TakesScreenshot) this.commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.FILE);
+//        FileUtils.copyFile(new File(screenShotsDir + File.separator + sheetName + " 8.Case Version Details_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), ScreenShots);
+//        return;
+
+
+    }
+
 
 }

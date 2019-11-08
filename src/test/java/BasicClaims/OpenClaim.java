@@ -1,5 +1,6 @@
 package BasicClaims;
 
+import com.aventstack.extentreports.Status;
 import commonClasses.CommonSeleniumTester;
 import commonClasses.CommonTestTools;
 import org.apache.commons.io.FileUtils;
@@ -12,15 +13,15 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 
 import java.io.File;
 import java.util.Arrays;
 
 public class OpenClaim extends BaseClass {
 
-
+    ITestResult result;
 
     String DataClientName;
     String DataAgentBroker;
@@ -83,9 +84,10 @@ public class OpenClaim extends BaseClass {
     String DataGlassReceipt;
 
     private int count = 0;
-    static Logger log = Logger.getLogger(BasicClaims.PurpleHeronUnderwritingTest.class);
+    //static Logger log;
+    static Logger log = Logger.getLogger(BasicClaims.OpenClaim.class);
 
-    @BeforeClass
+    @BeforeMethod
     public void init() throws Exception {
 
         reportColumns = new String[]
@@ -97,12 +99,13 @@ public class OpenClaim extends BaseClass {
                         "Glass Receipt","Glass Recovery","Test Results", "OverAll Test Result", "Reason"};
 
         setUp();
+
     }
 
 
     @Test
     public void OpenClaim() throws Exception {
-
+        this.log = Logger.getLogger(OpenClaim.class);
         log.info("Start @Test method");
         String[][] data = null;
         byte[] screenshot;
@@ -125,17 +128,20 @@ public class OpenClaim extends BaseClass {
             Assert.fail(ex.getMessage());
         }
 
-        setUpLaunchBrowser();
+
+        generateReport();
 
 
         for (int i = 0; i < data.length; i++) {
 
-            String policyNumber;
+            setUpLaunchBrowser();
 
+            String policyNumber;
 
             count++;
 
-            try {
+
+                try {
 
                 String testCaseName;
 
@@ -202,7 +208,7 @@ public class OpenClaim extends BaseClass {
                 DataGlassRecovery = CommonTestTools.getCellValue(headers, data[i], "Glass Recovery").trim();
                 DataGlassReceipt = CommonTestTools.getCellValue(headers, data[i], "Glass Receipt").trim();
 
-                log.info("Reading data sheet");
+
                 testCaseName = CommonTestTools.getCellValue(headers, data[i], "Test Case Name").trim();
                 policyNumber = CommonTestTools.getCellValue(headers, data[i], "Policy Number").trim();
                 commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Original Policy Number"), count, policyNumber);
@@ -214,26 +220,26 @@ public class OpenClaim extends BaseClass {
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("Search")).click();
                 //Thread.sleep(8000);
 
-
-                log.info("Reading data sheet");
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 1.Loading_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//
+//                log.info("Reading data sheet");
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 1.Loading_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 // click Super Inquiry Search Results - Policy
                 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='" + policyNumber + "']/td[1]")));
                 commonSeleniumTester.getDriver().findElement(By.xpath("//*[@id='" + policyNumber + "']/td[1]")).click();
                 //Thread.sleep(6000);
 
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 2.Policy information_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 2.Policy information_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 // click on claimTab and click on New button to create new claim
                 Thread.sleep(2000);
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("ClaimTab")));
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("ClaimTab")).click();
                 //Thread.sleep(2000);
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 3.Claims Tab_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 3.Claims Tab_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("NewClaimButton")));
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("NewClaimButton")).click();
 
@@ -255,8 +261,10 @@ public class OpenClaim extends BaseClass {
                 String ClaimDesc = CommonTestTools.getCellValue(headers, data[i], "Claim Description").trim();
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("ClaimDescription")).sendKeys(ClaimDesc);
 
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 4.First Notification of Loss_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 4.First Notification of Loss_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+
+
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("SaveButton")));
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("SaveButton")).click();
                 Thread.sleep(10000);
@@ -264,8 +272,8 @@ public class OpenClaim extends BaseClass {
                 CaseInformationValidation();
                 CaseDetailsValidations();
 
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 5.Case Information_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 5.Case Information_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("ExpandGlass")));
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("ExpandGlass")).click();
@@ -274,8 +282,9 @@ public class OpenClaim extends BaseClass {
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("OwnDamageReserve")));
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("OwnDamageReserve")).sendKeys("10000");
                 //Thread.sleep(5000);
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 6.Claims Reserves Update_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 6.Claims Reserves Update_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("SaveReserve")));
                 String SReserve = commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("SaveReserve")).getText();
@@ -295,8 +304,8 @@ public class OpenClaim extends BaseClass {
 
                 PolicySection();
 
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 7.Case Information after adding Reserve_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 7.Case Information after adding Reserve_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
                 wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("GlassCurrentReserve2")));
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("ClaimVersion")).click();
@@ -308,20 +317,25 @@ public class OpenClaim extends BaseClass {
                 Thread.sleep(5000);
                 CaseVersionDetailsValidations();
 
-                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
-                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 8.Case Version Details_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
+                String DocumentRef = commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("TransactionType")).getText();
+                Assert.assertEquals(DocumentRef, "Claim Reserve Gross");
 
-                commonSeleniumTester.getDriver().quit();
+//                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                FileUtils.writeByteArrayToFile(new File(screenShotsDir + File.separator + testCaseName + " 8.Case Version Details_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), screenshot);
 
-            } catch (Exception ex) {
-                commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "OverAll Test Result"), count, "FAILED");
-                commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Reason"), count, ex.getMessage());
-                Assert.fail(ex.getMessage());
+                commonSeleniumTester.getDriver().close();
 
-            }
+//                Assert.assertTrue(false);
+//                getResult(result);
 
+        }catch (Exception ex){
+            commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "OverAll Test Result"), count, "FAILED");
+            commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Reason"), count, ex.getMessage());
+            Assert.fail(ex.getMessage());
+    //        Assert.assertTrue(false);
         }
 
+    }
     }
 
     public void CaseInformationValidation() {
@@ -655,10 +669,6 @@ public class OpenClaim extends BaseClass {
 
 
 
-
-
-
-
         }catch (Exception ex){
             commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "OverAll Test Result"), count, "FAILED");
             commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Reason"), count, ex.getMessage());
@@ -807,6 +817,7 @@ public class OpenClaim extends BaseClass {
         try {
 
 
+
             String Version = commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("Version")).getText();
 
             if (Version.contains(DataVersion)){
@@ -908,7 +919,6 @@ public class OpenClaim extends BaseClass {
 
                 commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Total Receipt"), count, "FAILED");
             }
-
 
 
         }catch (Exception ex){
@@ -1081,7 +1091,25 @@ public class OpenClaim extends BaseClass {
             Assert.fail(ex.getMessage());
         }
 
+
+
     }
+
+
+
+    @AfterMethod
+    public void getResult(ITestResult result) throws Exception {
+
+        getResults(result);
+    }
+
+    @AfterTest
+    public void CloseBrowser(){
+
+        extentReport.flush();
+    }
+
+
 
 }
 

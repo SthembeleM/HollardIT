@@ -3,25 +3,325 @@
   <component name="ChangeListManager">
     <list default="true" id="a506629d-b26a-4fcb-9cc4-6b251beba318" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_02_20_26_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_02_24_12_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_02_27_58_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_02_30_05_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_02_54_57_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_03_01_05_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_03_02_03_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_03_04_47_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_03_08_46_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_03_09_12_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_03_12_32_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_03_13_54_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_04_06_49_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_04_13_11_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_04_14_17_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_04_39_42_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_05_04_20_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_05_15_17_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_05_17_08_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_05_32_39_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_10_21_20_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_10_28_58_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_10_36_11_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_11_10_50_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_11_14_28_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_11_16_28_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_11_40_20_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_11_41_22_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_11_43_12_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_03_13_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_04_07_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_12_39_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_15_58_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_17_18_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_28_18_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_30_05_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_15_12_32_06_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_01_01_30_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_01_03_01_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_01_04_40_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_01_07_18_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_01_09_00_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_03_02_31_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_03_08_15_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_03_13_01_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_09_37_34_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_09_37_51_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_36_30_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_37_16_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_39_52_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_42_40_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_44_54_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_47_00_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_49_45_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_50_54_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_53_10_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_55_51_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_16_12_58_19_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_19_10_21_29_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_20_11_30_22_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_20_11_38_47_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_20_11_40_46_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_20_11_43_32_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_20_12_11_04_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_20_12_18_41_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_20_12_24_50_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_04_26_38_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_04_30_03_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_04_31_50_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_04_33_40_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_05_29_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_08_38_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_12_37_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_13_22_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_15_26_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_20_02_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_21_39_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_05_21_49_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_12_27_19_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_12_29_26_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_22_12_33_35_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_01_57_10_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_02_17_09_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_02_20_24_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_02_27_51_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_02_28_05_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_02_29_21_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_08_33_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_11_09_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_13_49_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_24_30_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_26_04_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_29_21_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_31_40_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_36_47_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_39_46_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_04_45_17_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_12_31_44_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_12_33_41_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_12_38_01_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_12_41_01_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_12_44_38_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_26_12_49_45_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_02_00_40_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_02_30_58_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_02_33_52_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_02_36_22_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_02_37_53_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_10_46_50_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_10_49_38_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_10_54_25_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_10_55_22_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_27_10_56_43_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_28_02_03_02_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_28_02_06_23_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_28_02_14_01_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_28_02_16_33_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_28_02_16_50_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_28_02_28_14_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_28_02_48_09_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_08_30_02_29_17_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_03_10_28_09_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_03_10_36_20_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_03_10_39_00_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_03_11_25_42_QA_OpenClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_03_11_30_33_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_03_11_33_11_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_05_04_20_57_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_25_12_09_30_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_25_12_16_54_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_25_12_34_55_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_25_12_37_19_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_25_12_38_42_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_09_25_12_39_17_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_01_02_53_08_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_01_02_53_40_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_02_03_50_51_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_02_04_34_12_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_02_04_34_51_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_02_37_33_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_02_37_38_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_02_37_40_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_02_43_53_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_02_43_56_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_02_43_58_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_02_59_55_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_00_24_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_06_23_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_06_26_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_16_33_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_17_27_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_18_02_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_18_08_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_27_21_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_27_24_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_27_56_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_29_03_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_29_20_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_31_26_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_32_28_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_32_44_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_32_47_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_32_49_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_32_51_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_32_54_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_33_51_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_33_54_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_39_04_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_39_10_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_39_16_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_43_25_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_45_00_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_46_22_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_48_01_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_48_53_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_03_49_00_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_01_26_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_02_19_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_02_40_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_03_46_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_04_26_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_04_34_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_04_39_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_08_41_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_09_16_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_10_15_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_10_37_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_12_15_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_13_41_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_15_07_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_04_15_25_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_17_13_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_22_52_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_22_56_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_23_04_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_25_51_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_25_54_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_28_27_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_28_30_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_28_33_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_29_32_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_29_35_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_30_29_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_30_32_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_30_34_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_32_55_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_32_59_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_34_06_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_45_03_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_47_25_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_49_36_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_49_38_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_49_41_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_58_08_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_09_59_56_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_10_02_24_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_10_04_39_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_10_04_41_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_10_04_44_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_00_40_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_00_49_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_00_52_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_00_55_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_00_58_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_22_40_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_22_44_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_22_47_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_22_50_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_03_11_22_53_QA_PayClaim.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_02_08_33_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_02_09_34_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_03_37_12_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_03_38_43_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_03_44_48_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_03_46_08_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_09_46_59_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_09_51_24_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_09_53_37_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_09_54_59_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_10_08_06_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_10_34_18_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_04_10_36_01_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_03_15_22_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_03_15_45_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_03_20_31_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_03_20_54_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_03_29_51_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_03_30_15_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_07_45_11_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_07_45_34_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_07_54_29_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_07_54_53_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_07_59_25_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_06_07_59_49_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_02_49_45_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_10_13_24_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_10_13_51_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_15_42_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_16_39_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_17_03_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_17_45_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_18_08_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_29_30_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_30_31_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_30_55_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_32_52_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_33_16_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_37_35_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_37_40_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_37_43_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_37_45_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_38_23_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_40_00_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_40_23_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_45_38_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_49_58_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_50_55_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_51_19_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_54_25_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_11_54_49_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_02_00_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_02_24_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_03_17_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_03_41_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_03_53_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_07_31_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_09_28_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_09_31_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_09_58_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_38_04_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_07_12_39_21_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_02_55_08_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_03_16_07_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_03_17_22_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_04_02_10_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_04_04_26_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_04_11_30_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_04_13_47_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_04_16_52_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_04_18_43_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_08_04_36_51_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_09_02_41_35_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_09_02_43_09_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_13_04_55_18_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_15_08_52_56_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_15_08_53_17_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_15_08_53_42_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_15_08_54_03_QA_null.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Report_19_10_15_08_54_29_QA_null.xls" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/Environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Environment.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/PageObjects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PageObjects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestData/Claims.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/Claims.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 1.Loading_Page_19_10_09_02_43_32_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 2.Policy information_Page_19_10_09_02_43_35_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 3.Claim Tab_Page_19_10_09_02_43_43_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 4.Case Information_Page_19_10_09_02_43_50_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 5.Payments Tab_Page_19_10_09_02_43_58_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 6.Case Information 2_Page_19_10_09_02_44_05_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 7.Claimed Sections 2_Page_19_10_09_02_44_06_QA_PayClaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 8.Claim Payment_Page_19_10_09_02_44_20_QA_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/HollardAutomation-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-testScenario.PayClaim.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testScenario.PayClaim.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicClaims/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicClaims/BaseClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/BasicClaims/OpenClaim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicClaims/OpenClaim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/HollardAutomation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicClaims/PayClaim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicClaims/PayClaim.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,8 +347,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="932">
-              <caret line="116" column="48" lean-forward="true" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
+            <state relative-caret-position="152">
+              <caret line="1103" selection-start-line="1103" selection-end-line="1103" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#21207#37994#0" />
+                <element signature="e#38000#41010#0" />
+                <element signature="e#41016#44034#0" />
+                <element signature="e#44040#49573#0" />
+                <element signature="e#49579#58224#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodInvocationHelper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="724">
+              <caret line="469" selection-start-line="469" selection-end-line="469" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,19 +383,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="356">
+              <caret line="385" selection-start-line="385" selection-end-line="385" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getDataSheetList#0;class#BaseClass#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/ConfigInvoker.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+            <state relative-caret-position="160">
+              <caret line="256" selection-start-line="256" selection-end-line="256" />
             </state>
           </provider>
         </entry>
@@ -77,65 +407,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="635" column="63" selection-start-line="635" selection-start-column="63" selection-end-line="635" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonTestTools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/objectRepository/PageObjects.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="244">
+              <caret line="252" column="70" selection-start-line="252" selection-start-column="70" selection-end-line="252" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -152,36 +425,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>//div[@id=&quot;csVersionsTab&quot;]//tr[@id=&quot;0&quot;]//td[5]</find>
-      <find>dcaps</find>
-      <find>DesiredCapabilities</find>
-      <find>driver</find>
-      <find>sheetname</find>
-      <find>ENV</find>
-      <find>data</find>
-      <find>Environment</find>
-      <find>Datasheet</find>
-      <find>environment.</find>
-      <find>URL</find>
+      <find>Request</find>
+      <find>Status1</find>
+      <find>ClaimBordereauValidation()</find>
+      <find>screenShotsDir</find>
       <find>prop</find>
-      <find>DataSheet</find>
-      <find>datasheet</find>
-      <find>SheetName</find>
-      <find>DataSheetName</find>
-      <find>sheetName</find>
-      <find>//td[contains(text(),'Requested Payment JHB/CASE/000510391')]</find>
-      <find>//td[contains(text(),'Requested Payment</find>
+      <find>testDataDir</find>
+      <find>files</find>
+      <find>screenshots</find>
+      <find>CasePaymentGrid</find>
+      <find>PaymentScreenValidation</find>
+      <find>//tr[@id=&quot;0&quot;]//td[contains(text(),&quot;1304.35&quot;)]</find>
+      <find>VAT2</find>
+      <find>reportsDir</find>
+      <find>scree</find>
+      <find>//table[@id=&quot;caVersionsGrid_TABLE&quot;]//td[contains(text(),&quot;Mpumelelo Dube&quot;)]</find>
+      <find>generateReport()</find>
+      <find>morne</find>
+      <find>shee</find>
+      <find>user</find>
+      <find>gener</find>
       <find>//div[@id=&quot;csReservesTab&quot;]//tr[2]//td[3]</find>
-      <find>/div[@id=&quot;csVersionsTab&quot;]//tr[@id=&quot;0&quot;]//td[5]</find>
-      <find>launchMybrowser</find>
-      <find>launchBrowser</find>
-      <find>//div[@id=&quot;csVersionsTab&quot;]//tr[@id=&quot;0&quot;]//td[1]</find>
-      <find>Version</find>
-      <find>CaseVersionDescDetailsValidations</find>
-      <find>Client</find>
-      <find>java</find>
-      <find>setUpLaunchBrowser</find>
-      <find>pageObjectFileName</find>
+      <find>caInsuredName</find>
+      <find>ClientName</find>
+      <find>report</find>
+      <find>import org.testng.ITestResult;</find>
+      <find>CloseBrowser()</find>
+      <find>getResult</find>
+      <find>//td[contains(text(),&quot;8,695.65&quot;)]</find>
+      <find>CaseVersionDescDetails</find>
+      <find>Transa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -212,7 +485,6 @@
         <option value="$PROJECT_DIR$/src/test/java/testScenario/ClaimPaymentVerification2.java" />
         <option value="$PROJECT_DIR$/src/test/java/testScenario/PurpleHeronUnderwritingTest.java" />
         <option value="C:/Users/MDube/Documents/Selenium/Training/Introduction/src/testngFiles/Annotations.java" />
-        <option value="$PROJECT_DIR$/Resources/PageObjects.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testScenario/RecommendClaim.java" />
         <option value="$PROJECT_DIR$/src/test/java/testScenario/AuthoriseClaim.java" />
         <option value="$PROJECT_DIR$/src/test/java/testScenario/ClaimPaymentVerification.java" />
@@ -222,13 +494,14 @@
         <option value="$PROJECT_DIR$/src/test/java/testScenario/PayClaim.java" />
         <option value="$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java" />
         <option value="$PROJECT_DIR$/src/test/java/testScenario/BaseClass.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/HollardPurpleHeron.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java" />
         <option value="$PROJECT_DIR$/Resources/PageObjectsSchema.xsd" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Resources/Environment.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" />
+        <option value="$PROJECT_DIR$/Resources/PageObjects.xml" />
         <option value="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java" />
       </list>
     </option>
   </component>
@@ -266,18 +539,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
+    <option name="x" value="-1477" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1026" />
+    <option name="height" value="546" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,59 +559,24 @@
             <path>
               <item name="HollardAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="HollardAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="ExtentReport" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HollardAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="HollardAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HollardAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HollardAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HollardAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HollardAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HollardAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HollardAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BasicClaims" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HollardAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HollardAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="commonClasses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HollardAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HollardAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="objectRepository" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/automation_assesment" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -378,40 +614,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloseCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HollardAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicClaims.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BasicClaims" />
-      <option name="MAIN_CLASS_NAME" value="BasicClaims.CloseCase" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PurpleHeronUnderwritingTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="HollardAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicClaims.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BasicClaims" />
-      <option name="MAIN_CLASS_NAME" value="BasicClaims.PurpleHeronUnderwritingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -420,7 +622,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" type="TestNG" nameIsGenerated="true">
       <module name="HollardAutomation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/HollardPurpleHeron.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -432,7 +634,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenClaim" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OpenClaim" type="TestNG" nameIsGenerated="true">
       <module name="HollardAutomation" />
       <extension name="coverage">
         <pattern>
@@ -472,26 +674,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayClaim.PayClaim" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HollardAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicClaims.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testScenario" />
-      <option name="MAIN_CLASS_NAME" value="BasicClaims.PayClaim" />
-      <option name="METHOD_NAME" value="PayClaim" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
@@ -503,21 +685,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.PurpleHeronUnderwritingTest" />
-      <item itemvalue="JUnit.CloseCase" />
+      <item itemvalue="TestNG.OpenClaim" />
       <item itemvalue="TestNG.PayClaim" />
       <item itemvalue="TestNG.C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" />
-      <item itemvalue="TestNG.PayClaim.PayClaim" />
-      <item itemvalue="TestNG.OpenClaim" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.OpenClaim" />
-        <item itemvalue="TestNG.C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" />
-        <item itemvalue="TestNG.PayClaim.PayClaim" />
-        <item itemvalue="JUnit.CloseCase" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -533,34 +704,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.08 at 16h 05m 55s.xml">
-      <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
+    <history-entry file="OpenClaim - 2019.11.08 at 14h 02m 05s.xml">
+      <configuration name="OpenClaim" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PayClaim_PayClaim - 2019.10.08 at 16h 12m 58s.xml">
-      <configuration name="PayClaim.PayClaim" configurationId="TestNG" />
+    <history-entry file="OpenClaim - 2019.11.08 at 14h 05m 24s.xml">
+      <configuration name="OpenClaim" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PayClaim_PayClaim - 2019.10.08 at 16h 15m 24s.xml">
-      <configuration name="PayClaim.PayClaim" configurationId="TestNG" />
+    <history-entry file="OpenClaim - 2019.11.08 at 14h 10m 14s.xml">
+      <configuration name="OpenClaim" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PayClaim_PayClaim - 2019.10.08 at 16h 18m 29s.xml">
-      <configuration name="PayClaim.PayClaim" configurationId="TestNG" />
+    <history-entry file="OpenClaim - 2019.11.08 at 14h 20m 04s.xml">
+      <configuration name="OpenClaim" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PayClaim_PayClaim - 2019.10.08 at 16h 20m 21s.xml">
-      <configuration name="PayClaim.PayClaim" configurationId="TestNG" />
+    <history-entry file="OpenClaim - 2019.11.08 at 14h 24m 17s.xml">
+      <configuration name="OpenClaim" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PayClaim_PayClaim - 2019.10.08 at 16h 39m 11s.xml">
-      <configuration name="PayClaim.PayClaim" configurationId="TestNG" />
+    <history-entry file="OpenClaim - 2019.11.08 at 14h 26m 23s.xml">
+      <configuration name="OpenClaim" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PayClaim_PayClaim - 2019.10.09 at 14h 41m 14s.xml">
-      <configuration name="PayClaim.PayClaim" configurationId="TestNG" />
+    <history-entry file="OpenClaim - 2019.11.08 at 14h 51m 36s.xml">
+      <configuration name="OpenClaim" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.09 at 14h 44m 23s.xml">
-      <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
+    <history-entry file="OpenClaim - 2019.11.08 at 14h 52m 49s.xml">
+      <configuration name="OpenClaim" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__SeleniumAutomationScript_HollardAutomation_HollardPurpleHeron_xml - 2019.10.13 at 16h 56m 35s.xml">
-      <configuration name="C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" configurationId="TestNG" />
+    <history-entry file="OpenClaim - 2019.11.08 at 15h 05m 32s.xml">
+      <configuration name="OpenClaim" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenClaim - 2019.10.24 at 10h 28m 44s.xml">
+    <history-entry file="OpenClaim - 2019.11.08 at 15h 07m 53s.xml">
       <configuration name="OpenClaim" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -575,10 +746,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6993464" visible="true" weight="0.18176973" />
-      <window_info id="Structure" order="1" sideWeight="0.3006536" side_tool="true" weight="0.203125" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6977248" visible="true" weight="0.26385927" />
+      <window_info id="Structure" order="1" sideWeight="0.30227518" side_tool="true" weight="0.22014925" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -586,15 +756,15 @@
       <window_info id="Favorites" order="6" sideWeight="0.20355412" side_tool="true" weight="0.14765458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32169312" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.35969663" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45335516" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.35969663" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45287108" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.1928494" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.24918744" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.24549918" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.22860238" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -606,36 +776,6 @@
       <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5019557" side_tool="true" weight="0.1375" />
       <window_info anchor="right" id="Maven" order="9" sideWeight="0.49804434" weight="0.30786687" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6993464" visible="true" weight="0.24130106" />
-      <window_info id="Structure" order="1" sideWeight="0.3006536" side_tool="true" weight="0.203125" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.20355412" side_tool="true" weight="0.14765458" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32169312" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.36006546" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45335516" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.1928494" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.24918744" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.24549918" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" sideWeight="0.49946865" visible="true" weight="0.09375" />
-      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5019557" side_tool="true" weight="0.1375" />
-      <window_info anchor="right" id="Maven" order="9" sideWeight="0.49804434" weight="0.30786687" />
-    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -678,15 +818,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java</url>
-          <line>157</line>
+          <line>374</line>
           <properties />
-          <option name="timeStamp" value="240" />
+          <option name="timeStamp" value="264" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java</url>
-          <line>367</line>
+          <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java</url>
+          <line>390</line>
           <properties />
-          <option name="timeStamp" value="243" />
+          <option name="timeStamp" value="265" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -718,6 +858,31 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>getResults(result)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>screenShotsDir</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>File finalDestination = new File(destination);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>data.length</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CloseBrowser()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>row</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -737,109 +902,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>d.get(i).getText()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>commonSeleniumTester.getDriver()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>rows</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Column</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>i</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/testScenario/CreateClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/appModules/AgentWebAuthentication.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testScenario/iPlatformRatesTesting.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/appModules/Navigate.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunBefores.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Additional Regulatory Information.url" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/appModules/LogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4229">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testScenario/ClaimPaymentVerification2.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonExcelTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonFileTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonDBTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-327">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/LoginPopup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonReportingModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -848,9 +913,6 @@
       </provider>
     </entry>
     <entry file="file://C:/Users/MDube/Documents/Selenium/Training/Ekundu/src/ekundu/testcases/NewBusiness_test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Users/MDube/Documents/Selenium/Training/Ekundu/src/ekundu/Tests/NewBusiness.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://C:/Users/MDube/Documents/Selenium/Training/Introduction/src/testngFiles/Annotations.java">
@@ -931,13 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/TestInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="428" selection-start-line="428" selection-end-line="428" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonXMLTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -988,34 +1043,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="221" column="31" selection-start-line="221" selection-start-column="31" selection-end-line="221" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/PageObjectsSchema.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1039,31 +1070,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="17">
+          <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/ExtentTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3184#3185#0" expanded="true" />
+            <element signature="e#3213#3214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExtentReport/test.html" />
+    <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Users/MDube/Documents/Selenium/Training/Ekundu/src/ekundu/Tests/NewBusiness.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Users/MDube/Documents/Selenium/Training/Introduction/src/Basics/test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/HollardEkundu/EkunduTest1/src/test/java/com/ekundu/SASRIA_TestCases/SAS_EPL_1_New_BUsiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Selenium/Training/Ekundu/src/ekundu/Tests/NewBusiness.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Selenium/Training/Ekundu/src/ekundu/util/Utility.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Selenium/Training/Ekundu/src/ekundu/testcases/NewBusiness_test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/ITestNGMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/ITestResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+        <state relative-caret-position="680">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
+    <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java">
+    <entry file="file://$PROJECT_DIR$/ExtentReport/PurpleHeronAutomation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="932">
-          <caret line="116" column="48" lean-forward="true" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
+        <state relative-caret-position="34">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonFileTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="148" column="16" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#1456#1457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/TestMethodWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/TestRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="368" column="16" selection-start-line="368" selection-start-column="16" selection-end-line="368" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/SuiteRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#2489#2490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/TestNG.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="907" selection-start-line="907" selection-end-line="907" />
+          <folding>
+            <element signature="e#35194#35195#0" expanded="true" />
+            <element signature="e#35240#35241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="252" column="70" selection-start-line="252" selection-start-column="70" selection-end-line="252" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/TestInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="566" selection-start-line="566" selection-end-line="566" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/ConfigInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="256" selection-start-line="256" selection-end-line="256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="469" selection-start-line="469" selection-end-line="469" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1072,21 +1268,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="356">
+          <caret line="385" selection-start-line="385" selection-end-line="385" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#getDataSheetList#0;class#BaseClass#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="635" column="63" selection-start-line="635" selection-start-column="63" selection-end-line="635" selection-end-column="63" />
+        <state relative-caret-position="152">
+          <caret line="1103" selection-start-line="1103" selection-end-line="1103" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#21207#37994#0" />
+            <element signature="e#38000#41010#0" />
+            <element signature="e#41016#44034#0" />
+            <element signature="e#44040#49573#0" />
+            <element signature="e#49579#58224#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
         </state>
       </provider>
     </entry>
