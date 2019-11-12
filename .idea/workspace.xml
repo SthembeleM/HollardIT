@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a506629d-b26a-4fcb-9cc4-6b251beba318" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Environment.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/PageObjects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PageObjects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestData/Claims.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/Claims.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/commonClasses/CommonXMLTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/commonClasses/CommonXMLTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicClaims/PayClaim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicClaims/PayClaim.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,88 +26,6 @@
   <component name="FavoritesManager">
     <favorites_list name="HollardAutomation" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1908">
-              <caret line="211" column="28" selection-start-line="211" selection-start-column="16" selection-end-line="211" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#21207#37994#0" />
-                <element signature="e#38000#41010#0" />
-                <element signature="e#41016#44034#0" />
-                <element signature="e#44040#49573#0" />
-                <element signature="e#49579#58224#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-414">
-              <caret line="356" selection-start-line="356" selection-end-line="356" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#23955#25598#0" />
-                <element signature="e#25604#28634#0" />
-                <element signature="e#28640#34821#0" />
-                <element signature="e#34827#38941#0" />
-                <element signature="e#38947#42001#0" />
-                <element signature="e#42007#45038#0" />
-                <element signature="e#45044#49188#0" />
-                <element signature="e#49194#53168#0" />
-                <element signature="e#53174#54349#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="388" column="39" selection-start-line="388" selection-start-column="25" selection-end-line="388" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getDataSheetList#0;class#BaseClass#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/ConfigInvoker.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="256" selection-start-line="256" selection-end-line="256" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="220" column="30" selection-start-line="220" selection-start-column="23" selection-end-line="220" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -115,87 +34,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>ClaimBordereauValidation()</find>
-      <find>screenShotsDir</find>
-      <find>prop</find>
-      <find>testDataDir</find>
-      <find>files</find>
-      <find>screenshots</find>
-      <find>CasePaymentGrid</find>
-      <find>PaymentScreenValidation</find>
-      <find>//tr[@id=&quot;0&quot;]//td[contains(text(),&quot;1304.35&quot;)]</find>
-      <find>VAT2</find>
-      <find>reportsDir</find>
-      <find>scree</find>
-      <find>//table[@id=&quot;caVersionsGrid_TABLE&quot;]//td[contains(text(),&quot;Mpumelelo Dube&quot;)]</find>
-      <find>generateReport()</find>
-      <find>morne</find>
-      <find>shee</find>
-      <find>user</find>
-      <find>gener</find>
-      <find>//div[@id=&quot;csReservesTab&quot;]//tr[2]//td[3]</find>
-      <find>caInsuredName</find>
-      <find>ClientName</find>
-      <find>report</find>
-      <find>import org.testng.ITestResult;</find>
-      <find>CloseBrowser()</find>
-      <find>getResult</find>
-      <find>//td[contains(text(),&quot;8,695.65&quot;)]</find>
-      <find>CaseVersionDescDetails</find>
-      <find>Transa</find>
-      <find>//table[@id=&quot;ccpadAuthGrid_TABLE&quot;]//td[contains(text(),&quot;Request&quot;)]</find>
-      <find>testCaseName</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/CommonLibrary/CommonDBTester.java" />
-        <option value="$PROJECT_DIR$/src/test/CommonLibrary/CommonEMSTester.java" />
-        <option value="$PROJECT_DIR$/src/test/CommonLibrary/CommonExcelTester.java" />
-        <option value="$PROJECT_DIR$/src/test/CommonLibrary/CommonFileTester.java" />
-        <option value="$PROJECT_DIR$/src/test/CommonLibrary/CommonMQTester.java" />
-        <option value="$PROJECT_DIR$/src/test/CommonLibrary/CommonSeleniumTester.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CommonLibrary/CommonEMSTester.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CommonLibrary/CommonSeleniumTester.java" />
-        <option value="$PROJECT_DIR$/src/test/java/appModules/Login.java" />
-        <option value="$PROJECT_DIR$/src/test/java/appModules/Navigate.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/iPlatformRatesTesting.java" />
-        <option value="$PROJECT_DIR$/src/test/java/appModules/iPlatformLogin.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/CreateClient.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/AgentWebRatingTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/appModules/AgentWebAuthentication.java" />
-        <option value="$PROJECT_DIR$/src/test/java/appModules/LogIn.java" />
-        <option value="$PROJECT_DIR$/src/test/java/appModules/LoginPopup.java" />
-        <option value="$PROJECT_DIR$/src/test/java/commonClasses/LoginPopup.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/ClaimPaymentVerification1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/ClaimPaymentVerification2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/PurpleHeronUnderwritingTest.java" />
-        <option value="C:/Users/MDube/Documents/Selenium/Training/Introduction/src/testngFiles/Annotations.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/RecommendClaim.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/AuthoriseClaim.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/ClaimPaymentVerification.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/SalvageRecovery.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/CloseCase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/OpenClaim.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/PayClaim.java" />
-        <option value="$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testScenario/BaseClass.java" />
-        <option value="$PROJECT_DIR$/HollardPurpleHeron.xml" />
-        <option value="$PROJECT_DIR$/Resources/PageObjectsSchema.xsd" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Resources/Environment.properties" />
-        <option value="$PROJECT_DIR$/Resources/PageObjects.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -204,87 +44,30 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="HollardAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="HollardAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="HollardAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="HollardAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1477" />
-    <option name="y" value="-8" />
-    <option name="width" value="1026" />
-    <option name="height" value="546" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="HollardAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HollardAutomation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HollardAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HollardAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="ExtentReport" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HollardAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HollardAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1TTJ5VM38XK9UomM6SgxfnUQbtX" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/automation_assesment" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tandokazil\HollardIT\src\test\java" />
+      <recent name="C:\Users\jeremias\IdeaProjects\HollardAutomation\src\test\java" />
+      <recent name="C:\Users\jeremias\IdeaProjects\HollardAutomation" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="EkunduTestCases" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Selenium Automation Script\HollardAutomation\Resources" />
       <recent name="C:\Users\jeremias\IdeaProjects\HollardAutomation\Resources" />
       <recent name="C:\Users\jeremias\IdeaProjects\HollardAutomation\src\test\java\testScenario" />
       <recent name="C:\Users\jeremias\IdeaProjects\HollardAutomation\src\test\java\appModules" />
       <recent name="C:\Users\jeremias\IdeaProjects\HollardAutomation\src\test\java\objectRepository" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jeremias\IdeaProjects\HollardAutomation\src\test\java" />
-      <recent name="C:\Users\jeremias\IdeaProjects\HollardAutomation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -299,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PayClaim">
+  <component name="RunManager" selected="TestNG.SearchClient">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -348,8 +131,29 @@
     <configuration name="PayClaim" type="TestNG">
       <module name="HollardAutomation" />
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="testScenario" />
+      <option name="PACKAGE_NAME" value="BasicClaims" />
       <option name="MAIN_CLASS_NAME" value="BasicClaims.PayClaim" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchClient" type="TestNG">
+      <module name="HollardAutomation" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="EkunduTestCases" />
+      <option name="MAIN_CLASS_NAME" value="EkunduTestCases.SearchClient" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
@@ -379,6 +183,7 @@
     <list>
       <item itemvalue="TestNG.OpenClaim" />
       <item itemvalue="TestNG.PayClaim" />
+      <item itemvalue="TestNG.SearchClient" />
       <item itemvalue="TestNG.C:/SeleniumAutomationScript/HollardAutomation/HollardPurpleHeron.xml" />
     </list>
   </component>
@@ -395,38 +200,6 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="OpenClaim - 2019.11.08 at 14h 10m 14s.xml">
-      <configuration name="OpenClaim" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenClaim - 2019.11.08 at 14h 20m 04s.xml">
-      <configuration name="OpenClaim" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenClaim - 2019.11.08 at 14h 24m 17s.xml">
-      <configuration name="OpenClaim" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenClaim - 2019.11.08 at 14h 26m 23s.xml">
-      <configuration name="OpenClaim" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenClaim - 2019.11.08 at 14h 51m 36s.xml">
-      <configuration name="OpenClaim" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenClaim - 2019.11.08 at 14h 52m 49s.xml">
-      <configuration name="OpenClaim" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenClaim - 2019.11.08 at 15h 05m 32s.xml">
-      <configuration name="OpenClaim" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenClaim - 2019.11.08 at 15h 07m 53s.xml">
-      <configuration name="OpenClaim" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PayClaim - 2019.11.08 at 15h 54m 36s.xml">
-      <configuration name="PayClaim" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PayClaim - 2019.11.08 at 15h 58m 04s.xml">
-      <configuration name="PayClaim" configurationId="TestNG" />
-    </history-entry>
-  </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -436,38 +209,18 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6977248" visible="true" weight="0.26385927" />
-      <window_info id="Structure" order="1" sideWeight="0.30227518" side_tool="true" weight="0.22014925" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.20355412" side_tool="true" weight="0.14765458" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32169312" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.35969663" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31744313" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.1928494" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.24918744" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.22860238" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" sideWeight="0.49946865" visible="true" weight="0.09375" />
-      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5019557" side_tool="true" weight="0.1375" />
-      <window_info anchor="right" id="Maven" order="9" sideWeight="0.49804434" weight="0.30786687" />
-    </layout>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -475,50 +228,52 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/PurpleHeronUnderwritingTest.java</url>
           <line>121</line>
-          <properties />
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/RecommendClaim.java</url>
           <line>290</line>
-          <properties />
           <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/ClaimPaymentVerification.java</url>
           <line>138</line>
-          <properties />
           <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/ClaimPaymentVerification2.java</url>
           <line>92</line>
-          <properties />
           <option name="timeStamp" value="183" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/PurpleHeronUnderwritingTest.java</url>
           <line>258</line>
-          <properties />
           <option name="timeStamp" value="187" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/CloseCase.java</url>
           <line>137</line>
-          <properties />
           <option name="timeStamp" value="208" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java</url>
           <line>374</line>
-          <properties />
           <option name="timeStamp" value="264" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java</url>
           <line>390</line>
-          <properties />
           <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EkunduTestCases/SearchClient.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EkunduTestCases/SearchClient.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="268" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -533,10 +288,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/HollardAutomation$PurpleHeronUnderwritingTest.ic" NAME="PurpleHeronUnderwritingTest Coverage Results" MODIFIED="1557403194035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/HollardAutomation$CloseCase.ic" NAME="CloseCase Coverage Results" MODIFIED="1564058698264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>testScenario.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/HollardAutomation$CloseCase.ic" NAME="CloseCase Coverage Results" MODIFIED="1564058698264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/HollardAutomation$PurpleHeronUnderwritingTest.ic" NAME="PurpleHeronUnderwritingTest Coverage Results" MODIFIED="1557403194035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>testScenario.*</FILTER>
     </SUITE>
   </component>
@@ -595,486 +350,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonReportingModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Users/MDube/Documents/Selenium/Training/Ekundu/src/ekundu/testcases/NewBusiness_test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Users/MDube/Documents/Selenium/Training/Introduction/src/testngFiles/Annotations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="8" lean-forward="true" selection-end-line="130" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="129" column="19" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
-          <folding>
-            <element signature="e#15711#15712#0" expanded="true" />
-            <element signature="e#15747#15748#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/PurpleHeronUnderwritingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#PolicyInformationValidation#0;class#PurpleHeronUnderwritingTest#0" />
-            <element signature="method#AllocationDetailValidation#0;class#PurpleHeronUnderwritingTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonRESTTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/RecommendClaim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ClaimBordereauValidation#0;class#RecommendClaim#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/SalvageRecovery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonXMLTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="63" column="30" lean-forward="true" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/CloseCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/ClaimPaymentVerification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/AuthoriseClaim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/service/DriverService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/PageObjectsSchema.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonTestTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/objectRepository/PageObjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/ExtentTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonSeleniumTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3184#3185#0" expanded="true" />
-            <element signature="e#3213#3214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExtentReport/test.html" />
-    <entry file="file://C:/Users/MDube/Documents/Selenium/Training/Ekundu/src/ekundu/Tests/NewBusiness.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Users/MDube/Documents/Selenium/Training/Introduction/src/Basics/test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/HollardEkundu/EkunduTest1/src/test/java/com/ekundu/SASRIA_TestCases/SAS_EPL_1_New_BUsiness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Selenium/Training/Ekundu/src/ekundu/Tests/NewBusiness.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Selenium/Training/Ekundu/src/ekundu/util/Utility.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Selenium/Training/Ekundu/src/ekundu/testcases/NewBusiness_test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/ITestNGMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/ITestResult.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExtentReport/PurpleHeronAutomation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/commonClasses/CommonFileTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="148" column="16" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#1456#1457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/TestMethodWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/TestRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="368" column="16" selection-start-line="368" selection-start-column="16" selection-end-line="368" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/SuiteRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/SuiteRunnerWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#2489#2490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/TestNG.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="907" selection-start-line="907" selection-end-line="907" />
-          <folding>
-            <element signature="e#35194#35195#0" expanded="true" />
-            <element signature="e#35240#35241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/TestInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="566" selection-start-line="566" selection-end-line="566" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/ConfigInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="256" selection-start-line="256" selection-end-line="256" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodInvocationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1574">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="388" column="39" selection-start-line="388" selection-start-column="25" selection-end-line="388" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getDataSheetList#0;class#BaseClass#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="220" column="30" selection-start-line="220" selection-start-column="23" selection-end-line="220" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/PayClaim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414">
-          <caret line="356" selection-start-line="356" selection-end-line="356" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#23955#25598#0" />
-            <element signature="e#25604#28634#0" />
-            <element signature="e#28640#34821#0" />
-            <element signature="e#34827#38941#0" />
-            <element signature="e#38947#42001#0" />
-            <element signature="e#42007#45038#0" />
-            <element signature="e#45044#49188#0" />
-            <element signature="e#49194#53168#0" />
-            <element signature="e#53174#54349#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1908">
-          <caret line="211" column="28" selection-start-line="211" selection-start-column="16" selection-end-line="211" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#21207#37994#0" />
-            <element signature="e#38000#41010#0" />
-            <element signature="e#41016#44034#0" />
-            <element signature="e#44040#49573#0" />
-            <element signature="e#49579#58224#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HollardPurpleHeron.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>HollardAutomation</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.google.code.findbugs:jsr305:1.3.9</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

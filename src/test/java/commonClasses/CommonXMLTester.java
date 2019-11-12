@@ -118,7 +118,7 @@ public class CommonXMLTester {
 
     public void writeDocToFile(String filePath)throws IOException{
         doc.normalizeDocument();
-        OutputFormat format = new OutputFormat(doc);
+       OutputFormat format = new OutputFormat(doc);
         format.setIndenting(true);
         if(!filePath.contains("."))
             filePath+=".xml";
