@@ -393,6 +393,19 @@
     </page>
 
 
+#Ekundu Page Objects
+    <page name = 'FindClient'>
+
+        <element name='FindClientName' by='name' identifier='ctl00$cntMainBody$txtClientName'/>
+        <element name='EkunduSearchButton' by='name' identifier='ctl00$cntMainBody$btnSearch'/>
+        <element name='BusinessName' by='xpath' identifier='//td[contains(text(),"Iqbal Trading")]'/>
+
+
+
+
+
+
+    </page>
 
 
 </app>
