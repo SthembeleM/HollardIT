@@ -378,7 +378,7 @@ public class BaseClass {
             ext.fail(result.getThrowable().getMessage());
             ext.fail("Snapshot below: " + ext.addScreenCaptureFromPath(SS));
         } else if (result.getStatus() == ITestResult.SUCCESS) {
-           // String SS = getScreenshots(commonSeleniumTester, "ScreenshotPass");
+            // String SS = getScreenshots(commonSeleniumTester, "ScreenshotPass");
             ext.log(Status.PASS, MarkupHelper.createLabel(result.getName() + " Test Case PASSED", ExtentColor.GREEN));
             ext.pass("Snapshot below: " + ext.addScreenCaptureFromPath(screenShotsDir));
         }
@@ -393,7 +393,7 @@ public class BaseClass {
 
         String destination = System.getProperty("user.dir") + "/screenshots/" + screenshotName + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" +".png";
         File finalDestination = new File(destination);
-        FileUtils.deleteQuietly(source);
+        //FileUtils.deleteQuietly(source);
         FileUtils.copyFile(source, finalDestination);
         return destination;
 

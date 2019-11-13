@@ -300,8 +300,9 @@ public class OpenClaim extends BaseClass {
 
                 }
 
-                Thread.sleep(10000);
+               // Thread.sleep(10000);
 
+                wait.until(ExpectedConditions.visibilityOfElementLocated(pageObjects.getByElement("Section")));
                 PolicySection();
 
 //                screenshot = ((TakesScreenshot) commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.BYTES);
@@ -1102,7 +1103,7 @@ public class OpenClaim extends BaseClass {
     }
 
     @AfterTest
-    public void CloseBrowser(){
+    public void FlushReport(){
 
         extentReport.flush();
     }

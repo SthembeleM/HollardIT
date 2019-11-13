@@ -398,12 +398,10 @@
 
         <element name='FindClientName' by='name' identifier='ctl00$cntMainBody$txtClientName'/>
         <element name='EkunduSearchButton' by='name' identifier='ctl00$cntMainBody$btnSearch'/>
-        <element name='BusinessName' by='xpath' identifier='//td[contains(text(),"Iqbal Trading")]'/>
-
-
-
-
-
+        <element name='BusinessName' by='css' identifier='div.page_body:nth-child(3) div.nexus-fluid-layout div.page-container div.page-container-content div.table-wrapper:nth-child(6) div.AspNet-GridView table.noborder tbody:nth-child(2) tr.AspNet-GridView-Normal > td:nth-child(2)'/>
+        <element name='SelectClient' by='id' identifier='ctl00_cntMainBody_grdvSearchResults_ctl02_lnkDetails'/>
+        <element name='CompanyName' by='css' identifier='#ctl00_ClientInfoCtrl_hypCompanyName'/>
+        <element name='EkunduPolicyNo' by='name' identifier='ctl00$cntMainBody$txtPolicyNumber'/>
 
     </page>
 

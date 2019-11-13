@@ -1,34 +1,33 @@
 package EkunduTestCases;
 
-import com.aventstack.extentreports.Status;
 import commonClasses.CommonSeleniumTester;
 import commonClasses.CommonTestTools;
-import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
-//import org.junit.Assert;
-//import org.junit.Before;
-//import org.junit.Test;
-import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
-
-import java.io.File;
 import java.util.Arrays;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import static org.testng.Assert.*;
 
 public class SearchClient extends BaseClass {
 
-    ITestResult result;
-
-    String DataClientName;
-
+    String DataClientName, DataPolicyNumber;
 
     private int count = 0;
-    //static Logger log;
-    static Logger log = Logger.getLogger(BasicClaims.OpenClaim.class);
+
+    @BeforeSuite
+    public void GenerateReport(){
+
+       dataSheetName= "Ekundu";
+       sheetName="SearchClient";
+
+        generateReport();
+    }
+
 
     @BeforeMethod
     public void init() throws Exception {
@@ -43,9 +42,8 @@ public class SearchClient extends BaseClass {
 
 
     @Test
-    public void SearchClient() throws Exception {
-        //this.log = Logger.getLogger(OpenClaim.class);
-        log.info("Start @Test method");
+    public void SearchByPolicyNumber() throws Exception {
+
         String[][] data = null;
         byte[] screenshot;
 
@@ -64,11 +62,82 @@ public class SearchClient extends BaseClass {
         } catch (Exception ex) {
             commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Test Results"), 1, "FAILED");
             commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Reason"), 1, ex.getMessage());
-            Assert.fail(ex.getMessage());
+            fail(ex.getMessage());
         }
 
 
-        generateReport();
+
+        for (int i = 0; i < data.length; i++) {
+
+            setUpLaunchBrowser();
+
+            count++;
+
+            try {
+
+                String testCaseName;
+
+
+                DataClientName = CommonTestTools.getCellValue(headers, data[i], "Client Name").trim();
+                DataPolicyNumber = CommonTestTools.getCellValue(headers, data[i], "Policy Number").trim();
+
+                testCaseName = CommonTestTools.getCellValue(headers, data[i], "Test Case Name").trim();
+                WebDriverWait wait = new WebDriverWait(commonSeleniumTester.getDriver(), 75);
+
+                //Enter Policy Number
+                commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("EkunduPolicyNo")).sendKeys(DataPolicyNumber);
+                commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("EkunduSearchButton")).click();
+
+                //Client name search validation
+                String BusinessName = commonSeleniumTester.getDriver().findElement(pageObjects.getByElement( "BusinessName")).getText();
+                assertEquals(BusinessName, "ALBERTON LEWENSSENTRUM");
+
+                //Select Client
+                commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("SelectClient")).click();
+
+                //Company name validation
+                String CompanyName = commonSeleniumTester.getDriver().findElement(pageObjects.getByElement( "CompanyName")).getText();
+                assertEquals(CompanyName, "Iqbal Trading");
+
+                //Close browser
+                commonSeleniumTester.getDriver().close();
+
+            }catch (Exception ex){
+                commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "OverAll Test Result"), count, "FAILED");
+                commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Reason"), count, ex.getMessage());
+                fail(ex.getMessage());
+            }
+
+
+        }
+
+    }
+
+    @Test
+    public void SearchByName() throws Exception {
+        this.log = Logger.getLogger(SearchClient.class);
+        log.info("Start @Test method");
+        String[][] data = null;
+        byte[] screenshot;
+
+
+
+        commonSeleniumTester = new CommonSeleniumTester();
+        prop.getProperty(dataSheetName= "Ekundu");
+        prop.getProperty(sheetName="SearchClient");
+
+        try {
+
+            data = getDataSheetArray(testDataDir, dataSheetName, sheetName);
+            headers = data[0];
+            data = Arrays.copyOfRange(data, 1, data.length);
+
+
+        } catch (Exception ex) {
+            commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Test Results"), 1, "FAILED");
+            commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Reason"), 1, ex.getMessage());
+            fail(ex.getMessage());
+        }
 
 
         for (int i = 0; i < data.length; i++) {
@@ -93,57 +162,45 @@ public class SearchClient extends BaseClass {
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("FindClientName")).sendKeys(DataClientName);
                 commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("EkunduSearchButton")).click();
 
-                 //Client name search validation
+                //Client name search validation
                 String BusinessName = commonSeleniumTester.getDriver().findElement(pageObjects.getByElement( "BusinessName")).getText();
-                Assert.assertEquals( BusinessName, "Iqbal Tradingg");
+                Assert.assertEquals(BusinessName, "Iqbal Trading");
 
+                //Select Client
+                commonSeleniumTester.getDriver().findElement(pageObjects.getByElement("SelectClient")).click();
+
+                //Company name validation
+                String CompanyName = commonSeleniumTester.getDriver().findElement(pageObjects.getByElement( "CompanyName")).getText();
+                Assert.assertEquals(CompanyName, "Iqbal Trading");
+
+
+                commonSeleniumTester.getDriver().close();
 
 
 
             }catch (Exception ex){
                 commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "OverAll Test Result"), count, "FAILED");
                 commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Reason"), count, ex.getMessage());
-                Assert.fail(ex.getMessage());
+                fail(ex.getMessage());
             }
 
+
         }
 
     }
-
-
-    public void CaseDetailsValidations(){
-
-
-
-        try {
-
-
-
-
-        }catch (Exception ex){
-            commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "OverAll Test Result"), count, "FAILED");
-            commonExcelTester.writeToReport(reportFile, CommonTestTools.getColumnIndex(reportColumns, "Reason"), count, ex.getMessage());
-            Assert.fail(ex.getMessage());
-        }
-
-    }
-
-
 
 
     @AfterMethod
-    public void getResult(ITestResult result) throws Exception {
+    private void getResult(ITestResult result) throws Exception {
 
         getResults(result);
     }
 
-    @AfterTest
-    public void CloseBrowser(){
+    @AfterSuite
+    public void FlushReport(){
 
         extentReport.flush();
     }
-
-
 
 }
 

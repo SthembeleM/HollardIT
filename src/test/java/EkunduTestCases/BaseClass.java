@@ -24,6 +24,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestResult;
 
+import javax.rmi.CORBA.Util;
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
@@ -57,7 +58,6 @@ public class BaseClass {
     CommonFileTester commonFileTester;
 
     CommonSeleniumTester commonSeleniumTester;
-    LoginPopup loginPopup;
     static PageObjects pageObjects;
     static String reporter;
 
@@ -88,12 +88,6 @@ public class BaseClass {
         if (pageObjectFileName == null || pageObjectFileName.isEmpty()) {
             throw new Exception("Page Object file name not specified");
         }
-
-//        log.info("Test Information" + "\nOS\t:" + System.getProperty("os.name") +
-//                "\nUser\t:" + System.getProperty("user.name") +
-//                "\nBrowser\t:" + prop.get("BrowserName") +
-//                "\nEnvironment\t:" + environment +
-//                "\nURL\t:" + prop.getProperty(environment + "URL"));
 
         pageObjects.getDOM(pageObjectFileName);
         pageObjects.setXmlElementNode("element");
@@ -280,11 +274,6 @@ public class BaseClass {
             List<String> rowData;
             String cellValue;
             Cell cell;
-            //for (int i = 0; i <= rowCount; i++) {
-            // row = sheet.getRow(i);
-            // if(row == null){             //break on empty row
-            //break;
-            // }
 
             Iterator<Row> rowIterator = sheet.iterator();
 
@@ -346,14 +335,12 @@ public class BaseClass {
 
     public void generateReport() {
 
-
         File extent = new File(ExtentReport);
         if(!extent.exists()){
             extent.mkdir();
             extent.mkdir();
         }
         ExtentReportFile = "ExtentReport" + File.separator + dataSheetName +"Report_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".html";
-       // log.info("Report\t:" + reportFile);
 
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(ExtentReportFile);
         htmlReporter.config().setReportName(sheetName + "Report");
@@ -361,54 +348,39 @@ public class BaseClass {
         extentReport = new ExtentReports();
         extentReport.attachReporter(htmlReporter);
 
-
-        ext = extentReport.createTest(sheetName +  "Report");
+        ext = extentReport.createTest(sheetName +  " Report");
         ext.assignAuthor("Mpumelelo Dube");
-        ext.info("Loading" + sheetName + "Test case");
-
-
+        ext.info("Loading " + sheetName + " Test cases");
 
     }
 
     public void getResults(ITestResult result) throws Exception {
         if (result.getStatus() == ITestResult.FAILURE) {
-            String SS = getScreenshots(commonSeleniumTester, "ScreenshotFail");
-            ext.log(Status.FAIL, MarkupHelper.createLabel(result.getName() + " Test case FAILED due to below issues:", ExtentColor.RED));
-            ext.fail(result.getThrowable().getMessage());
+            String SS = getScreenshots(commonSeleniumTester, result.getName());
             ext.fail("Snapshot below: " + ext.addScreenCaptureFromPath(SS));
+            ext.fail(result.getThrowable().getMessage());
+            ext.log(Status.FAIL, MarkupHelper.createLabel(result.getName() + " Test case FAILED due to below issues:", ExtentColor.RED));
         } else if (result.getStatus() == ITestResult.SUCCESS) {
-           // String SS = getScreenshots(commonSeleniumTester, "ScreenshotPass");
             ext.log(Status.PASS, MarkupHelper.createLabel(result.getName() + " Test Case PASSED", ExtentColor.GREEN));
-            ext.pass("Snapshot below: " + ext.addScreenCaptureFromPath(screenShotsDir));
+        }else {
+
+            //ext.log(Status.SKIP, MarkupHelper.createLabel(result.getName() + " Test Case SKIPPED"), ExtentColor.YELLOW);
         }
 
     }
 
 
-    public static String getScreenshots(CommonSeleniumTester commonSeleniumTester, String screenshotName) throws IOException {
+    private static String getScreenshots(CommonSeleniumTester commonSeleniumTester, String screenshotName) throws IOException {
 
         TakesScreenshot ts = (TakesScreenshot) commonSeleniumTester.getDriver();
         File source = ts.getScreenshotAs(OutputType.FILE);
 
         String destination = System.getProperty("user.dir") + "/screenshots/" + screenshotName + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" +".png";
         File finalDestination = new File(destination);
-        FileUtils.deleteQuietly(source);
+        //FileUtils.deleteQuietly(source);
         FileUtils.copyFile(source, finalDestination);
         return destination;
 
-//        File screenShotFile = new File(screenShotsDir);
-//        screenShotFile.mkdir();
-//        screenShotFile.mkdir();
-//
-//        //ScreenShotsFile = "screenshots" + File.separator + "ScreenShot" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".html";
-//        // log.info("Report\t:" + reportFile);
-//
-//        File ScreenShots = ((TakesScreenshot) this.commonSeleniumTester.getDriver()).getScreenshotAs(OutputType.FILE);
-//        FileUtils.copyFile(new File(screenShotsDir + File.separator + sheetName + " 8.Case Version Details_Page_" + CommonTestTools.formatDate(CommonTestTools.changeDate(0), "YY_MM_dd_hh_mm_ss") + "_" + environment + sheetName + ".png"), ScreenShots);
-//        return;
-
-
     }
-
 
 }

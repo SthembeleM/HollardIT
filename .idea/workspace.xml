@@ -3,12 +3,52 @@
   <component name="ChangeListManager">
     <list default="true" id="a506629d-b26a-4fcb-9cc4-6b251beba318" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Environment.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/ClaimsReport_19_11_08_02_16_58_SUPP_OpenClaim.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/ClaimsReport_19_11_08_03_05_42_SUPP_OpenClaim.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/EkunduReport_19_11_12_10_16_18_EkunduUAT_SearchClient.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/EkunduReport_19_11_12_10_19_11_EkunduUAT_SearchClient.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/EkunduReport_19_11_12_11_20_44_EkunduUAT_SearchClient.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/PageObjects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PageObjects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestData/Claims.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/Claims.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/commonClasses/CommonXMLTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/commonClasses/CommonXMLTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicClaims/PayClaim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicClaims/PayClaim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/Ekundu.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/Ekundu.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 1.Loading_Page_19_11_08_03_54_00_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 1.Loading_Page_19_11_08_03_56_28_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 10.Payment Details_Page_19_11_08_03_57_32_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 11.Case Information_Page_19_11_08_03_57_32_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 12.Super Inquiry Search for Case_Page_19_11_08_03_57_41_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 13.Case Versions Tab_Page_19_11_08_03_57_57_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 14.Payments Tab_Page_19_11_08_03_58_00_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 15.Payments Tab 2_Page_19_11_08_03_58_01_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 2.Policy information_Page_19_11_08_03_54_04_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 2.Policy information_Page_19_11_08_03_56_31_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 3.Claim Tab_Page_19_11_08_03_54_11_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 3.Claim Tab_Page_19_11_08_03_56_40_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 4.Case Information_Page_19_11_08_03_54_18_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 4.Case Information_Page_19_11_08_03_56_46_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 5.Payments Tab_Page_19_11_08_03_54_26_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 5.Payments Tab_Page_19_11_08_03_56_54_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 6.Case Information 2_Page_19_11_08_03_54_33_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 6.Case Information 2_Page_19_11_08_03_57_02_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 7.Claimed Sections 2_Page_19_11_08_03_54_34_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 7.Claimed Sections 2_Page_19_11_08_03_57_03_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 8.Claim Payment_Page_19_11_08_03_57_17_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Pay Claim 9.Payment_Page_19_11_08_03_57_21_SUPP_PayClaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/ScreenshotFail19_11_08_02_09_29_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/ScreenshotFail19_11_08_02_18_32_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/ScreenshotFail19_11_08_02_19_42_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/ScreenshotFail19_11_08_02_19_48_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/ScreenshotFail19_11_08_02_19_52_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EkunduTestCases/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EkunduTestCases/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EkunduTestCases/SearchClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EkunduTestCases/SearchClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicClaims/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicClaims/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicClaims/OpenClaim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicClaims/OpenClaim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EkunduTestCases/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EkunduTestCases/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EkunduTestCases/SearchClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EkunduTestCases/SearchClient.class" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +66,78 @@
   <component name="FavoritesManager">
     <favorites_list name="HollardAutomation" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EkunduTestCases/SearchClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="407" selection-start-line="407" selection-end-line="407" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="1105" column="27" selection-start-line="1105" selection-start-column="16" selection-end-line="1105" selection-end-column="27" />
+              <folding>
+                <element signature="e#21558#38345#0" />
+                <element signature="e#38351#41361#0" />
+                <element signature="e#41367#44385#0" />
+                <element signature="e#44391#49924#0" />
+                <element signature="e#49930#58575#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EkunduTestCases/BaseClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="350" column="17" selection-start-line="350" selection-start-column="17" selection-end-line="350" selection-end-column="17" />
+              <folding>
+                <element signature="method#getDataSheetArray#0;class#BaseClass#0" />
+                <element signature="method#getDataSheetList#0;class#BaseClass#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -34,8 +146,30 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Section</find>
+      <find>/div[@id=&quot;csReservesTab&quot;]//tr[2]//td[3]</find>
+      <find>PolicySection</find>
+      <find>generateReport();</find>
+      <find>Loading</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Resources/Environment.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java" />
+        <option value="$PROJECT_DIR$/Resources/PageObjects.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EkunduTestCases/SearchClient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EkunduTestCases/BaseClass.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -44,10 +178,72 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1677" />
+    <option name="y" value="-8" />
+    <option name="width" value="983" />
+    <option name="height" value="549" />
+  </component>
   <component name="ProjectId" id="1TTJ5VM38XK9UomM6SgxfnUQbtX" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HollardIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HollardIT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HollardIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HollardIT" type="462c0819:PsiDirectoryNode" />
+              <item name="ExtentReport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HollardIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HollardIT" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HollardIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HollardIT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HollardIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HollardIT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HollardIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HollardIT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HollardIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HollardIT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="EkunduTestCases" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/SeleniumAutomationScript" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -200,6 +396,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SearchClient - 2019.11.13 at 11h 09m 49s.xml">
+      <configuration name="SearchClient" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchClient - 2019.11.13 at 11h 12m 17s.xml">
+      <configuration name="SearchClient" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchClient - 2019.11.13 at 11h 18m 05s.xml">
+      <configuration name="SearchClient" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchClient - 2019.11.13 at 11h 22m 13s.xml">
+      <configuration name="SearchClient" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchClient - 2019.11.13 at 11h 23m 26s.xml">
+      <configuration name="SearchClient" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchClient - 2019.11.13 at 11h 24m 27s.xml">
+      <configuration name="SearchClient" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchClient - 2019.11.13 at 11h 32m 43s.xml">
+      <configuration name="SearchClient" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchClient - 2019.11.13 at 11h 34m 07s.xml">
+      <configuration name="SearchClient" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchClient - 2019.11.13 at 11h 49m 32s.xml">
+      <configuration name="SearchClient" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchClient - 2019.11.13 at 12h 13m 11s.xml">
+      <configuration name="SearchClient" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -209,14 +437,65 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25426438" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32827735" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -228,52 +507,56 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/PurpleHeronUnderwritingTest.java</url>
           <line>121</line>
+          <properties />
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/RecommendClaim.java</url>
           <line>290</line>
+          <properties />
           <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/ClaimPaymentVerification.java</url>
           <line>138</line>
+          <properties />
           <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/ClaimPaymentVerification2.java</url>
           <line>92</line>
+          <properties />
           <option name="timeStamp" value="183" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/PurpleHeronUnderwritingTest.java</url>
           <line>258</line>
+          <properties />
           <option name="timeStamp" value="187" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/CloseCase.java</url>
           <line>137</line>
+          <properties />
           <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EkunduTestCases/BaseClass.java</url>
+          <line>357</line>
+          <properties />
+          <option name="timeStamp" value="275" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java</url>
           <line>374</line>
-          <option name="timeStamp" value="264" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java</url>
-          <line>390</line>
-          <option name="timeStamp" value="265" />
+          <properties />
+          <option name="timeStamp" value="278" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/EkunduTestCases/SearchClient.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="267" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/EkunduTestCases/SearchClient.java</url>
-          <line>142</line>
-          <option name="timeStamp" value="268" />
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="280" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -288,15 +571,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/HollardAutomation$CloseCase.ic" NAME="CloseCase Coverage Results" MODIFIED="1564058698264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/HollardAutomation$PurpleHeronUnderwritingTest.ic" NAME="PurpleHeronUnderwritingTest Coverage Results" MODIFIED="1557403194035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>testScenario.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/HollardAutomation$PurpleHeronUnderwritingTest.ic" NAME="PurpleHeronUnderwritingTest Coverage Results" MODIFIED="1557403194035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/HollardAutomation$CloseCase.ic" NAME="CloseCase Coverage Results" MODIFIED="1564058698264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>testScenario.*</FILTER>
     </SUITE>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>getResults(result)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>Payee.value</expression-string>
         <language-id>JAVA</language-id>
@@ -310,12 +598,17 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>screenShotsDir</expression-string>
+        <expression-string>File finalDestination = new File(destination);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>File finalDestination = new File(destination);</expression-string>
+        <expression-string>result</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>screenShotsDir</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -344,11 +637,162 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>(ClaimHandler.equalsIgnoreCase(DataClaimHandler)){</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/TestMethodWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/TestRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="368" column="16" selection-start-line="368" selection-start-column="16" selection-end-line="368" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/SuiteRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#2489#2490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/TestNG.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="927" column="31" lean-forward="true" selection-start-line="927" selection-start-column="31" selection-end-line="927" selection-end-column="31" />
+          <folding>
+            <element signature="e#35194#35195#0" expanded="true" />
+            <element signature="e#35240#35241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#1456#1457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/BaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="398" selection-start-line="398" selection-end-line="398" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/ExtentTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="224" column="22" selection-start-line="224" selection-start-column="22" selection-end-line="224" selection-end-column="22" />
+          <folding>
+            <element signature="e#8080#8081#0" expanded="true" />
+            <element signature="e#8161#8162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Environment.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/TestInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="416" selection-start-line="416" selection-end-line="416" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/ConfigInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="264" selection-start-line="264" selection-end-line="264" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/PageObjects.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="407" selection-start-line="407" selection-end-line="407" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BasicClaims/OpenClaim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="1105" column="27" selection-start-line="1105" selection-start-column="16" selection-end-line="1105" selection-end-column="27" />
+          <folding>
+            <element signature="e#21558#38345#0" />
+            <element signature="e#38351#41361#0" />
+            <element signature="e#41367#44385#0" />
+            <element signature="e#44391#49924#0" />
+            <element signature="e#49930#58575#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EkunduTestCases/SearchClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EkunduTestCases/BaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="350" column="17" selection-start-line="350" selection-start-column="17" selection-end-line="350" selection-end-column="17" />
+          <folding>
+            <element signature="method#getDataSheetArray#0;class#BaseClass#0" />
+            <element signature="method#getDataSheetList#0;class#BaseClass#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
